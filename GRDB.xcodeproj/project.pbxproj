@@ -7,126 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9418250621C148A30078BDA5 /* PersistableRecord+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418248121C148A20078BDA5 /* PersistableRecord+Encodable.swift */; };
-		9418250721C148A30078BDA5 /* FetchableRecord+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418248221C148A20078BDA5 /* FetchableRecord+Decodable.swift */; };
-		9418250821C148A30078BDA5 /* FetchableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418248321C148A20078BDA5 /* FetchableRecord.swift */; };
-		9418250921C148A30078BDA5 /* FetchedRecordsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418248421C148A20078BDA5 /* FetchedRecordsController.swift */; };
-		9418250A21C148A30078BDA5 /* TableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418248521C148A20078BDA5 /* TableRecord.swift */; };
-		9418250B21C148A30078BDA5 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418248621C148A20078BDA5 /* Record.swift */; };
-		9418250C21C148A30078BDA5 /* PersistableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418248721C148A20078BDA5 /* PersistableRecord.swift */; };
-		9418250D21C148A30078BDA5 /* FetchableRecord+TableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418248821C148A20078BDA5 /* FetchableRecord+TableRecord.swift */; };
-		9418250E21C148A30078BDA5 /* DatabaseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418248A21C148A20078BDA5 /* DatabaseQueue.swift */; };
-		9418250F21C148A30078BDA5 /* RowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418248B21C148A20078BDA5 /* RowAdapter.swift */; };
-		9418251021C148A30078BDA5 /* StatementAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418248C21C148A20078BDA5 /* StatementAuthorizer.swift */; };
-		9418251121C148A30078BDA5 /* FetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418248D21C148A20078BDA5 /* FetchRequest.swift */; };
-		9418251221C148A30078BDA5 /* Database+Statements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418248E21C148A20078BDA5 /* Database+Statements.swift */; };
-		9418251321C148A30078BDA5 /* DatabaseSchemaCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418248F21C148A20078BDA5 /* DatabaseSchemaCache.swift */; };
-		9418251421C148A30078BDA5 /* DatabaseReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418249021C148A20078BDA5 /* DatabaseReader.swift */; };
-		9418251521C148A30078BDA5 /* DatabaseValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418249121C148A20078BDA5 /* DatabaseValue.swift */; };
-		9418251621C148A30078BDA5 /* DatabaseValueConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418249221C148A20078BDA5 /* DatabaseValueConversion.swift */; };
-		9418251721C148A30078BDA5 /* DatabaseSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418249321C148A20078BDA5 /* DatabaseSnapshot.swift */; };
-		9418251821C148A30078BDA5 /* StatementColumnConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418249421C148A20078BDA5 /* StatementColumnConvertible.swift */; };
-		9418251921C148A30078BDA5 /* DatabasePool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418249521C148A20078BDA5 /* DatabasePool.swift */; };
-		9418251A21C148A30078BDA5 /* SchedulingWatchdog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418249621C148A20078BDA5 /* SchedulingWatchdog.swift */; };
-		9418251B21C148A30078BDA5 /* DatabaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418249721C148A20078BDA5 /* DatabaseError.swift */; };
-		9418251C21C148A30078BDA5 /* Database+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418249821C148A20078BDA5 /* Database+Schema.swift */; };
-		9418251D21C148A30078BDA5 /* StandardLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418249B21C148A20078BDA5 /* StandardLibrary.swift */; };
-		9418251E21C148A30078BDA5 /* DatabaseValueConvertible+RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418249C21C148A20078BDA5 /* DatabaseValueConvertible+RawRepresentable.swift */; };
-		9418251F21C148A30078BDA5 /* DatabaseValueConvertible+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418249D21C148A20078BDA5 /* DatabaseValueConvertible+Encodable.swift */; };
-		9418252021C148A30078BDA5 /* DatabaseValueConvertible+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418249E21C148A20078BDA5 /* DatabaseValueConvertible+Decodable.swift */; };
-		9418252121C148A30078BDA5 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824A021C148A20078BDA5 /* CGFloat.swift */; };
-		9418252221C148A30078BDA5 /* NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824A221C148A20078BDA5 /* NSString.swift */; };
-		9418252321C148A30078BDA5 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824A321C148A20078BDA5 /* Date.swift */; };
-		9418252421C148A30078BDA5 /* NSNull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824A421C148A20078BDA5 /* NSNull.swift */; };
-		9418252521C148A30078BDA5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824A521C148A20078BDA5 /* Data.swift */; };
-		9418252621C148A30078BDA5 /* DatabaseValueConvertible+ReferenceConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824A621C148A20078BDA5 /* DatabaseValueConvertible+ReferenceConvertible.swift */; };
-		9418252721C148A30078BDA5 /* UUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824A721C148A20078BDA5 /* UUID.swift */; };
-		9418252821C148A30078BDA5 /* DatabaseDateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824A821C148A20078BDA5 /* DatabaseDateComponents.swift */; };
-		9418252921C148A30078BDA5 /* NSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824A921C148A20078BDA5 /* NSData.swift */; };
-		9418252A21C148A30078BDA5 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824AA21C148A20078BDA5 /* URL.swift */; };
-		9418252B21C148A30078BDA5 /* SQLiteDateParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824AB21C148A20078BDA5 /* SQLiteDateParser.swift */; };
-		9418252C21C148A30078BDA5 /* NSNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824AC21C148A20078BDA5 /* NSNumber.swift */; };
-		9418252D21C148A30078BDA5 /* TransactionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824AD21C148A20078BDA5 /* TransactionObserver.swift */; };
-		9418252E21C148A30078BDA5 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824AE21C148A20078BDA5 /* Database.swift */; };
-		9418252F21C148A30078BDA5 /* DatabaseRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824AF21C148A20078BDA5 /* DatabaseRegion.swift */; };
-		9418253021C148A30078BDA5 /* DatabaseRegionObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824B021C148A20078BDA5 /* DatabaseRegionObservation.swift */; };
-		9418253121C148A30078BDA5 /* Cursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824B121C148A20078BDA5 /* Cursor.swift */; };
-		9418253221C148A30078BDA5 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824B221C148A20078BDA5 /* Row.swift */; };
-		9418253321C148A30078BDA5 /* DatabaseWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824B321C148A20078BDA5 /* DatabaseWriter.swift */; };
-		9418253421C148A30078BDA5 /* DatabaseFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824B421C148A20078BDA5 /* DatabaseFunction.swift */; };
-		9418253521C148A30078BDA5 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824B521C148A20078BDA5 /* Statement.swift */; };
-		9418253621C148A30078BDA5 /* DatabaseValueConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824B621C148A20078BDA5 /* DatabaseValueConvertible.swift */; };
-		9418253721C148A30078BDA5 /* DatabaseCollation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824B721C148A20078BDA5 /* DatabaseCollation.swift */; };
-		9418253821C148A30078BDA5 /* SerializedDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824B821C148A20078BDA5 /* SerializedDatabase.swift */; };
-		9418253921C148A30078BDA5 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824B921C148A20078BDA5 /* Configuration.swift */; };
-		9418253A21C148A30078BDA5 /* ValueObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824BB21C148A20078BDA5 /* ValueObservation.swift */; };
-		9418253B21C148A30078BDA5 /* ValueObservation+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824BC21C148A20078BDA5 /* ValueObservation+Combine.swift */; };
-		9418253C21C148A30078BDA5 /* ValueObservation+DistinctUntilChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824BD21C148A20078BDA5 /* ValueObservation+DistinctUntilChanged.swift */; };
-		9418253D21C148A30078BDA5 /* ValueObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824BE21C148A20078BDA5 /* ValueObserver.swift */; };
-		9418253E21C148A30078BDA5 /* ValueObservation+MapReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824BF21C148A20078BDA5 /* ValueObservation+MapReducer.swift */; };
-		9418253F21C148A30078BDA5 /* ValueObservation+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824C021C148A20078BDA5 /* ValueObservation+Map.swift */; };
-		9418254021C148A30078BDA5 /* ValueObservation+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824C121C148A20078BDA5 /* ValueObservation+Row.swift */; };
-		9418254121C148A30078BDA5 /* ValueObservation+FetchableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824C221C148A20078BDA5 /* ValueObservation+FetchableRecord.swift */; };
-		9418254221C148A30078BDA5 /* ValueObservation+DatabaseValueConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824C321C148A20078BDA5 /* ValueObservation+DatabaseValueConvertible.swift */; };
-		9418254321C148A30078BDA5 /* ValueObservation+CompactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824C421C148A20078BDA5 /* ValueObservation+CompactMap.swift */; };
-		9418254421C148A30078BDA5 /* ValueReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824C521C148A20078BDA5 /* ValueReducer.swift */; };
-		9418254521C148A30078BDA5 /* ValueObservation+Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824C621C148A20078BDA5 /* ValueObservation+Count.swift */; };
-		9418254621C148A30078BDA5 /* DatabaseMigrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824C821C148A20078BDA5 /* DatabaseMigrator.swift */; };
-		9418254721C148A30078BDA5 /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824C921C148A20078BDA5 /* Migration.swift */; };
-		9418254821C148A30078BDA5 /* FTS5Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824CB21C148A20078BDA5 /* FTS5Pattern.swift */; };
-		9418254921C148A30078BDA5 /* FTS5CustomTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824CC21C148A20078BDA5 /* FTS5CustomTokenizer.swift */; };
-		9418254A21C148A30078BDA5 /* FTS3TokenizerDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824CD21C148A20078BDA5 /* FTS3TokenizerDescriptor.swift */; };
-		9418254B21C148A30078BDA5 /* FTS3Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824CE21C148A20078BDA5 /* FTS3Pattern.swift */; };
-		9418254C21C148A30078BDA5 /* FTS5Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824CF21C148A20078BDA5 /* FTS5Tokenizer.swift */; };
-		9418254D21C148A30078BDA5 /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824D021C148A20078BDA5 /* FTS4.swift */; };
-		9418254E21C148A30078BDA5 /* FTS5TokenizerDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824D121C148A20078BDA5 /* FTS5TokenizerDescriptor.swift */; };
-		9418254F21C148A30078BDA5 /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824D221C148A20078BDA5 /* FTS5.swift */; };
-		9418255021C148A30078BDA5 /* FTS5WrapperTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824D321C148A20078BDA5 /* FTS5WrapperTokenizer.swift */; };
-		9418255121C148A30078BDA5 /* FTS3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824D421C148A20078BDA5 /* FTS3.swift */; };
-		9418255221C148A30078BDA5 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824D621C148A20078BDA5 /* Result.swift */; };
-		9418255321C148A30078BDA5 /* ReadWriteBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824D721C148A20078BDA5 /* ReadWriteBox.swift */; };
-		9418255421C148A30078BDA5 /* Pool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824D821C148A20078BDA5 /* Pool.swift */; };
-		9418255521C148A30078BDA5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824D921C148A20078BDA5 /* Utils.swift */; };
-		9418255621C148A30078BDA5 /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824DA21C148A20078BDA5 /* OrderedDictionary.swift */; };
-		9418255721C148A30078BDA5 /* Inflections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824DB21C148A20078BDA5 /* Inflections.swift */; };
-		9418255821C148A30078BDA5 /* Fixits-0-84-0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824DD21C148A30078BDA5 /* Fixits-0-84-0.swift */; };
-		9418255921C148A30078BDA5 /* Fixits-0.109.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824DE21C148A30078BDA5 /* Fixits-0.109.0.swift */; };
-		9418255A21C148A30078BDA5 /* Fixits-0.101.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824DF21C148A30078BDA5 /* Fixits-0.101.1.swift */; };
-		9418255B21C148A30078BDA5 /* Fixits-0-90-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824E021C148A30078BDA5 /* Fixits-0-90-1.swift */; };
-		9418255C21C148A30078BDA5 /* Fixits-1.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824E121C148A30078BDA5 /* Fixits-1.2.swift */; };
-		9418255D21C148A30078BDA5 /* Fixits-Swift2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824E221C148A30078BDA5 /* Fixits-Swift2.swift */; };
-		9418255E21C148A30078BDA5 /* Fixits-3.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824E321C148A30078BDA5 /* Fixits-3.0.swift */; };
-		9418255F21C148A30078BDA5 /* TableDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824E521C148A30078BDA5 /* TableDefinition.swift */; };
-		9418256021C148A30078BDA5 /* BelongsToAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824E721C148A30078BDA5 /* BelongsToAssociation.swift */; };
-		9418256121C148A30078BDA5 /* HasOneAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824E821C148A30078BDA5 /* HasOneAssociation.swift */; };
-		9418256221C148A30078BDA5 /* AssociationQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824E921C148A30078BDA5 /* AssociationQuery.swift */; };
-		9418256321C148A30078BDA5 /* AssociationAggregate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824EA21C148A30078BDA5 /* AssociationAggregate.swift */; };
-		9418256421C148A30078BDA5 /* HasManyAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824EB21C148A30078BDA5 /* HasManyAssociation.swift */; };
-		9418256521C148A30078BDA5 /* ForeignKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824EC21C148A30078BDA5 /* ForeignKey.swift */; };
-		9418256621C148A30078BDA5 /* ForeignKeyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824ED21C148A30078BDA5 /* ForeignKeyRequest.swift */; };
-		9418256721C148A30078BDA5 /* AssociationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824EE21C148A30078BDA5 /* AssociationRequest.swift */; };
-		9418256821C148A30078BDA5 /* Association.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824EF21C148A30078BDA5 /* Association.swift */; };
-		9418256921C148A30078BDA5 /* QueryInterfaceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824F021C148A30078BDA5 /* QueryInterfaceRequest.swift */; };
-		9418256A21C148A30078BDA5 /* RequestProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824F121C148A30078BDA5 /* RequestProtocols.swift */; };
-		9418256B21C148A30078BDA5 /* FTS5+QueryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824F221C148A30078BDA5 /* FTS5+QueryInterface.swift */; };
-		9418256C21C148A30078BDA5 /* SQLCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824F321C148A30078BDA5 /* SQLCollection.swift */; };
-		9418256D21C148A30078BDA5 /* SQLExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824F421C148A30078BDA5 /* SQLExpression.swift */; };
-		9418256E21C148A30078BDA5 /* SQLOrdering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824F521C148A30078BDA5 /* SQLOrdering.swift */; };
-		9418256F21C148A30078BDA5 /* SQLExpressible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824F621C148A30078BDA5 /* SQLExpressible.swift */; };
-		9418257021C148A30078BDA5 /* QueryInterfaceQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824F721C148A30078BDA5 /* QueryInterfaceQuery.swift */; };
-		9418257121C148A30078BDA5 /* QueryOrdering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824F821C148A30078BDA5 /* QueryOrdering.swift */; };
-		9418257221C148A30078BDA5 /* SQLExpression+QueryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824F921C148A30078BDA5 /* SQLExpression+QueryInterface.swift */; };
-		9418257321C148A30078BDA5 /* SQLSelectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824FA21C148A30078BDA5 /* SQLSelectable.swift */; };
-		9418257421C148A30078BDA5 /* Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824FB21C148A30078BDA5 /* Column.swift */; };
-		9418257521C148A30078BDA5 /* SQLSpecificExpressible+QueryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824FC21C148A30078BDA5 /* SQLSpecificExpressible+QueryInterface.swift */; };
-		9418257621C148A30078BDA5 /* SQLOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824FE21C148A30078BDA5 /* SQLOperators.swift */; };
-		9418257721C148A30078BDA5 /* SQLFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941824FF21C148A30078BDA5 /* SQLFunctions.swift */; };
-		9418257821C148A30078BDA5 /* SQLCollatedExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418250021C148A30078BDA5 /* SQLCollatedExpression.swift */; };
-		9418257921C148A30078BDA5 /* QueryInterfaceRequest+Association.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418250121C148A30078BDA5 /* QueryInterfaceRequest+Association.swift */; };
-		9418257A21C148A30078BDA5 /* VirtualTableModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418250221C148A30078BDA5 /* VirtualTableModule.swift */; };
-		9418257B21C148A30078BDA5 /* SQLGenerationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418250321C148A30078BDA5 /* SQLGenerationContext.swift */; };
-		9418257C21C148A30078BDA5 /* FTS3+QueryInterfaceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418250421C148A30078BDA5 /* FTS3+QueryInterfaceRequest.swift */; };
-		9418257D21C148A30078BDA5 /* SQLSelectable+QueryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418250521C148A30078BDA5 /* SQLSelectable+QueryInterface.swift */; };
 		9418258421C1498F0078BDA5 /* grdb_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 9418258321C1498F0078BDA5 /* grdb_config.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9418259621C14CD60078BDA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9418259521C14CD60078BDA5 /* AppDelegate.m */; };
 		9418259921C14CD70078BDA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9418259821C14CD60078BDA5 /* ViewController.m */; };
@@ -135,129 +15,130 @@
 		941825A121C14CD90078BDA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9418259F21C14CD90078BDA5 /* LaunchScreen.storyboard */; };
 		941825A421C14CD90078BDA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 941825A321C14CD90078BDA5 /* main.m */; };
 		94B4EF9721C13B9C0007A32B /* GRDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B4EF9521C13B9C0007A32B /* GRDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94DD5B152254A18200FA967B /* TableDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5A8F2254A18200FA967B /* TableDefinition.swift */; };
+		94DD5B162254A18200FA967B /* BelongsToAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5A912254A18200FA967B /* BelongsToAssociation.swift */; };
+		94DD5B172254A18200FA967B /* HasOneAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5A922254A18200FA967B /* HasOneAssociation.swift */; };
+		94DD5B182254A18200FA967B /* AssociationAggregate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5A932254A18200FA967B /* AssociationAggregate.swift */; };
+		94DD5B192254A18200FA967B /* HasManyAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5A942254A18200FA967B /* HasManyAssociation.swift */; };
+		94DD5B1A2254A18200FA967B /* ForeignKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5A952254A18200FA967B /* ForeignKey.swift */; };
+		94DD5B1B2254A18200FA967B /* HasManyThroughAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5A962254A18200FA967B /* HasManyThroughAssociation.swift */; };
+		94DD5B1C2254A18200FA967B /* ForeignKeyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5A972254A18200FA967B /* ForeignKeyRequest.swift */; };
+		94DD5B1D2254A18200FA967B /* Association.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5A982254A18200FA967B /* Association.swift */; };
+		94DD5B1E2254A18200FA967B /* HasOneThroughAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5A992254A18200FA967B /* HasOneThroughAssociation.swift */; };
+		94DD5B1F2254A18200FA967B /* QueryInterfaceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5A9A2254A18200FA967B /* QueryInterfaceRequest.swift */; };
+		94DD5B202254A18200FA967B /* SQLInterpolation+QueryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5A9B2254A18200FA967B /* SQLInterpolation+QueryInterface.swift */; };
+		94DD5B212254A18200FA967B /* SQLSelectQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5A9C2254A18200FA967B /* SQLSelectQuery.swift */; };
+		94DD5B222254A18200FA967B /* RequestProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5A9D2254A18200FA967B /* RequestProtocols.swift */; };
+		94DD5B232254A18200FA967B /* DatabasePromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5A9E2254A18200FA967B /* DatabasePromise.swift */; };
+		94DD5B242254A18200FA967B /* FTS5+QueryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5A9F2254A18200FA967B /* FTS5+QueryInterface.swift */; };
+		94DD5B252254A18200FA967B /* SQLCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AA02254A18200FA967B /* SQLCollection.swift */; };
+		94DD5B262254A18200FA967B /* SQLExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AA12254A18200FA967B /* SQLExpression.swift */; };
+		94DD5B272254A18200FA967B /* SQLOrdering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AA22254A18200FA967B /* SQLOrdering.swift */; };
+		94DD5B282254A18200FA967B /* SQLExpressible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AA32254A18200FA967B /* SQLExpressible.swift */; };
+		94DD5B292254A18200FA967B /* SQLExpression+QueryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AA42254A18200FA967B /* SQLExpression+QueryInterface.swift */; };
+		94DD5B2A2254A18200FA967B /* SQLSelectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AA52254A18200FA967B /* SQLSelectable.swift */; };
+		94DD5B2B2254A18200FA967B /* Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AA62254A18200FA967B /* Column.swift */; };
+		94DD5B2C2254A18200FA967B /* SQLSpecificExpressible+QueryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AA72254A18200FA967B /* SQLSpecificExpressible+QueryInterface.swift */; };
+		94DD5B2D2254A18200FA967B /* SQLOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AA92254A18200FA967B /* SQLOperators.swift */; };
+		94DD5B2E2254A18200FA967B /* SQLFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AAA2254A18200FA967B /* SQLFunctions.swift */; };
+		94DD5B2F2254A18200FA967B /* SQLSelectQueryGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AAB2254A18200FA967B /* SQLSelectQueryGenerator.swift */; };
+		94DD5B302254A18200FA967B /* SQLCollatedExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AAC2254A18200FA967B /* SQLCollatedExpression.swift */; };
+		94DD5B312254A18200FA967B /* QueryInterfaceRequest+Association.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AAD2254A18200FA967B /* QueryInterfaceRequest+Association.swift */; };
+		94DD5B322254A18200FA967B /* VirtualTableModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AAE2254A18200FA967B /* VirtualTableModule.swift */; };
+		94DD5B332254A18200FA967B /* SQLRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AAF2254A18200FA967B /* SQLRelation.swift */; };
+		94DD5B342254A18200FA967B /* SQLGenerationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AB02254A18200FA967B /* SQLGenerationContext.swift */; };
+		94DD5B352254A18200FA967B /* FTS3+QueryInterfaceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AB12254A18200FA967B /* FTS3+QueryInterfaceRequest.swift */; };
+		94DD5B362254A18200FA967B /* SQLSelectable+QueryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AB22254A18200FA967B /* SQLSelectable+QueryInterface.swift */; };
+		94DD5B372254A18200FA967B /* DatabaseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AB42254A18200FA967B /* DatabaseQueue.swift */; };
+		94DD5B382254A18200FA967B /* SQLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AB52254A18200FA967B /* SQLRequest.swift */; };
+		94DD5B392254A18200FA967B /* RowAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AB62254A18200FA967B /* RowAdapter.swift */; };
+		94DD5B3A2254A18200FA967B /* StatementAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AB72254A18200FA967B /* StatementAuthorizer.swift */; };
+		94DD5B3B2254A18200FA967B /* FetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AB82254A18200FA967B /* FetchRequest.swift */; };
+		94DD5B3C2254A18200FA967B /* Database+Statements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AB92254A18200FA967B /* Database+Statements.swift */; };
+		94DD5B3D2254A18200FA967B /* DatabaseSchemaCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5ABA2254A18200FA967B /* DatabaseSchemaCache.swift */; };
+		94DD5B3E2254A18200FA967B /* DatabaseReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5ABB2254A18200FA967B /* DatabaseReader.swift */; };
+		94DD5B3F2254A18200FA967B /* DatabaseValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5ABC2254A18200FA967B /* DatabaseValue.swift */; };
+		94DD5B402254A18200FA967B /* SQLLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5ABD2254A18200FA967B /* SQLLiteral.swift */; };
+		94DD5B412254A18200FA967B /* DatabaseValueConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5ABE2254A18200FA967B /* DatabaseValueConversion.swift */; };
+		94DD5B422254A18200FA967B /* DatabaseSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5ABF2254A18200FA967B /* DatabaseSnapshot.swift */; };
+		94DD5B432254A18200FA967B /* StatementColumnConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AC02254A18200FA967B /* StatementColumnConvertible.swift */; };
+		94DD5B442254A18200FA967B /* DatabasePool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AC12254A18200FA967B /* DatabasePool.swift */; };
+		94DD5B452254A18200FA967B /* SchedulingWatchdog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AC22254A18200FA967B /* SchedulingWatchdog.swift */; };
+		94DD5B462254A18200FA967B /* DatabaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AC32254A18200FA967B /* DatabaseError.swift */; };
+		94DD5B472254A18200FA967B /* Database+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AC42254A18200FA967B /* Database+Schema.swift */; };
+		94DD5B482254A18200FA967B /* StandardLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AC72254A18200FA967B /* StandardLibrary.swift */; };
+		94DD5B492254A18200FA967B /* DatabaseValueConvertible+RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AC82254A18200FA967B /* DatabaseValueConvertible+RawRepresentable.swift */; };
+		94DD5B4A2254A18200FA967B /* DatabaseValueConvertible+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AC92254A18200FA967B /* DatabaseValueConvertible+Encodable.swift */; };
+		94DD5B4B2254A18200FA967B /* DatabaseValueConvertible+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5ACA2254A18200FA967B /* DatabaseValueConvertible+Decodable.swift */; };
+		94DD5B4C2254A18200FA967B /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5ACC2254A18200FA967B /* CGFloat.swift */; };
+		94DD5B4D2254A18200FA967B /* NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5ACE2254A18200FA967B /* NSString.swift */; };
+		94DD5B4E2254A18200FA967B /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5ACF2254A18200FA967B /* Date.swift */; };
+		94DD5B4F2254A18200FA967B /* NSNull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AD02254A18200FA967B /* NSNull.swift */; };
+		94DD5B502254A18200FA967B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AD12254A18200FA967B /* Data.swift */; };
+		94DD5B512254A18200FA967B /* DatabaseValueConvertible+ReferenceConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AD22254A18200FA967B /* DatabaseValueConvertible+ReferenceConvertible.swift */; };
+		94DD5B522254A18200FA967B /* UUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AD32254A18200FA967B /* UUID.swift */; };
+		94DD5B532254A18200FA967B /* DatabaseDateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AD42254A18200FA967B /* DatabaseDateComponents.swift */; };
+		94DD5B542254A18200FA967B /* NSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AD52254A18200FA967B /* NSData.swift */; };
+		94DD5B552254A18200FA967B /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AD62254A18200FA967B /* URL.swift */; };
+		94DD5B562254A18200FA967B /* SQLiteDateParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AD72254A18200FA967B /* SQLiteDateParser.swift */; };
+		94DD5B572254A18200FA967B /* NSNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AD82254A18200FA967B /* NSNumber.swift */; };
+		94DD5B582254A18200FA967B /* TransactionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AD92254A18200FA967B /* TransactionObserver.swift */; };
+		94DD5B592254A18200FA967B /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5ADA2254A18200FA967B /* Database.swift */; };
+		94DD5B5A2254A18200FA967B /* DatabaseRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5ADB2254A18200FA967B /* DatabaseRegion.swift */; };
+		94DD5B5B2254A18200FA967B /* DatabaseRegionObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5ADC2254A18200FA967B /* DatabaseRegionObservation.swift */; };
+		94DD5B5C2254A18200FA967B /* Cursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5ADD2254A18200FA967B /* Cursor.swift */; };
+		94DD5B5D2254A18200FA967B /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5ADE2254A18200FA967B /* Row.swift */; };
+		94DD5B5E2254A18200FA967B /* DatabaseWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5ADF2254A18200FA967B /* DatabaseWriter.swift */; };
+		94DD5B5F2254A18200FA967B /* SQLInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AE02254A18200FA967B /* SQLInterpolation.swift */; };
+		94DD5B602254A18200FA967B /* DatabaseFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AE12254A18200FA967B /* DatabaseFunction.swift */; };
+		94DD5B612254A18200FA967B /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AE22254A18200FA967B /* Statement.swift */; };
+		94DD5B622254A18200FA967B /* DatabaseValueConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AE32254A18200FA967B /* DatabaseValueConvertible.swift */; };
+		94DD5B632254A18200FA967B /* DatabaseCollation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AE42254A18200FA967B /* DatabaseCollation.swift */; };
+		94DD5B642254A18200FA967B /* SerializedDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AE52254A18200FA967B /* SerializedDatabase.swift */; };
+		94DD5B652254A18200FA967B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AE62254A18200FA967B /* Configuration.swift */; };
+		94DD5B662254A18200FA967B /* EncodableRecord+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AE82254A18200FA967B /* EncodableRecord+Encodable.swift */; };
+		94DD5B672254A18200FA967B /* EncodableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AE92254A18200FA967B /* EncodableRecord.swift */; };
+		94DD5B682254A18200FA967B /* FetchableRecord+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AEA2254A18200FA967B /* FetchableRecord+Decodable.swift */; };
+		94DD5B692254A18200FA967B /* FetchableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AEB2254A18200FA967B /* FetchableRecord.swift */; };
+		94DD5B6A2254A18200FA967B /* FetchedRecordsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AEC2254A18200FA967B /* FetchedRecordsController.swift */; };
+		94DD5B6B2254A18200FA967B /* TableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AED2254A18200FA967B /* TableRecord.swift */; };
+		94DD5B6C2254A18200FA967B /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AEE2254A18200FA967B /* Record.swift */; };
+		94DD5B6D2254A18200FA967B /* PersistableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AEF2254A18200FA967B /* PersistableRecord.swift */; };
+		94DD5B6E2254A18200FA967B /* FetchableRecord+TableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AF02254A18200FA967B /* FetchableRecord+TableRecord.swift */; };
+		94DD5B6F2254A18200FA967B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AF22254A18200FA967B /* Result.swift */; };
+		94DD5B702254A18200FA967B /* ReadWriteBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AF32254A18200FA967B /* ReadWriteBox.swift */; };
+		94DD5B712254A18200FA967B /* Pool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AF42254A18200FA967B /* Pool.swift */; };
+		94DD5B722254A18200FA967B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AF52254A18200FA967B /* Utils.swift */; };
+		94DD5B732254A18200FA967B /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AF62254A18200FA967B /* OrderedDictionary.swift */; };
+		94DD5B742254A18200FA967B /* Inflections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AF72254A18200FA967B /* Inflections.swift */; };
+		94DD5B752254A18200FA967B /* FTS5Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AF92254A18200FA967B /* FTS5Pattern.swift */; };
+		94DD5B762254A18200FA967B /* FTS5CustomTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AFA2254A18200FA967B /* FTS5CustomTokenizer.swift */; };
+		94DD5B772254A18200FA967B /* FTS3TokenizerDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AFB2254A18200FA967B /* FTS3TokenizerDescriptor.swift */; };
+		94DD5B782254A18200FA967B /* FTS3Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AFC2254A18200FA967B /* FTS3Pattern.swift */; };
+		94DD5B792254A18200FA967B /* FTS5Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AFD2254A18200FA967B /* FTS5Tokenizer.swift */; };
+		94DD5B7A2254A18200FA967B /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AFE2254A18200FA967B /* FTS4.swift */; };
+		94DD5B7B2254A18200FA967B /* FTS5TokenizerDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5AFF2254A18200FA967B /* FTS5TokenizerDescriptor.swift */; };
+		94DD5B7C2254A18200FA967B /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B002254A18200FA967B /* FTS5.swift */; };
+		94DD5B7D2254A18200FA967B /* FTS5WrapperTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B012254A18200FA967B /* FTS5WrapperTokenizer.swift */; };
+		94DD5B7E2254A18200FA967B /* FTS3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B022254A18200FA967B /* FTS3.swift */; };
+		94DD5B7F2254A18200FA967B /* GRDB-4.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B042254A18200FA967B /* GRDB-4.0.swift */; };
+		94DD5B802254A18200FA967B /* ValueObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B062254A18200FA967B /* ValueObservation.swift */; };
+		94DD5B812254A18200FA967B /* ValueObservation+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B072254A18200FA967B /* ValueObservation+Combine.swift */; };
+		94DD5B822254A18200FA967B /* ValueObservation+DistinctUntilChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B082254A18200FA967B /* ValueObservation+DistinctUntilChanged.swift */; };
+		94DD5B832254A18200FA967B /* ValueObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B092254A18200FA967B /* ValueObserver.swift */; };
+		94DD5B842254A18200FA967B /* ValueObservation+MapReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B0A2254A18200FA967B /* ValueObservation+MapReducer.swift */; };
+		94DD5B852254A18200FA967B /* ValueObservation+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B0B2254A18200FA967B /* ValueObservation+Map.swift */; };
+		94DD5B862254A18200FA967B /* ValueObservation+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B0C2254A18200FA967B /* ValueObservation+Row.swift */; };
+		94DD5B872254A18200FA967B /* ValueObservation+FetchableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B0D2254A18200FA967B /* ValueObservation+FetchableRecord.swift */; };
+		94DD5B882254A18200FA967B /* ValueObservation+DatabaseValueConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B0E2254A18200FA967B /* ValueObservation+DatabaseValueConvertible.swift */; };
+		94DD5B892254A18200FA967B /* ValueObservation+CompactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B0F2254A18200FA967B /* ValueObservation+CompactMap.swift */; };
+		94DD5B8A2254A18200FA967B /* ValueReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B102254A18200FA967B /* ValueReducer.swift */; };
+		94DD5B8B2254A18200FA967B /* ValueObservation+Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B112254A18200FA967B /* ValueObservation+Count.swift */; };
+		94DD5B8C2254A18200FA967B /* DatabaseMigrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B132254A18200FA967B /* DatabaseMigrator.swift */; };
+		94DD5B8D2254A18200FA967B /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD5B142254A18200FA967B /* Migration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9418248121C148A20078BDA5 /* PersistableRecord+Encodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PersistableRecord+Encodable.swift"; sourceTree = "<group>"; };
-		9418248221C148A20078BDA5 /* FetchableRecord+Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FetchableRecord+Decodable.swift"; sourceTree = "<group>"; };
-		9418248321C148A20078BDA5 /* FetchableRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchableRecord.swift; sourceTree = "<group>"; };
-		9418248421C148A20078BDA5 /* FetchedRecordsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedRecordsController.swift; sourceTree = "<group>"; };
-		9418248521C148A20078BDA5 /* TableRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRecord.swift; sourceTree = "<group>"; };
-		9418248621C148A20078BDA5 /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
-		9418248721C148A20078BDA5 /* PersistableRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistableRecord.swift; sourceTree = "<group>"; };
-		9418248821C148A20078BDA5 /* FetchableRecord+TableRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FetchableRecord+TableRecord.swift"; sourceTree = "<group>"; };
-		9418248A21C148A20078BDA5 /* DatabaseQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseQueue.swift; sourceTree = "<group>"; };
-		9418248B21C148A20078BDA5 /* RowAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowAdapter.swift; sourceTree = "<group>"; };
-		9418248C21C148A20078BDA5 /* StatementAuthorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatementAuthorizer.swift; sourceTree = "<group>"; };
-		9418248D21C148A20078BDA5 /* FetchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchRequest.swift; sourceTree = "<group>"; };
-		9418248E21C148A20078BDA5 /* Database+Statements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Database+Statements.swift"; sourceTree = "<group>"; };
-		9418248F21C148A20078BDA5 /* DatabaseSchemaCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseSchemaCache.swift; sourceTree = "<group>"; };
-		9418249021C148A20078BDA5 /* DatabaseReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseReader.swift; sourceTree = "<group>"; };
-		9418249121C148A20078BDA5 /* DatabaseValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseValue.swift; sourceTree = "<group>"; };
-		9418249221C148A20078BDA5 /* DatabaseValueConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseValueConversion.swift; sourceTree = "<group>"; };
-		9418249321C148A20078BDA5 /* DatabaseSnapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseSnapshot.swift; sourceTree = "<group>"; };
-		9418249421C148A20078BDA5 /* StatementColumnConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatementColumnConvertible.swift; sourceTree = "<group>"; };
-		9418249521C148A20078BDA5 /* DatabasePool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabasePool.swift; sourceTree = "<group>"; };
-		9418249621C148A20078BDA5 /* SchedulingWatchdog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulingWatchdog.swift; sourceTree = "<group>"; };
-		9418249721C148A20078BDA5 /* DatabaseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseError.swift; sourceTree = "<group>"; };
-		9418249821C148A20078BDA5 /* Database+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Database+Schema.swift"; sourceTree = "<group>"; };
-		9418249B21C148A20078BDA5 /* StandardLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardLibrary.swift; sourceTree = "<group>"; };
-		9418249C21C148A20078BDA5 /* DatabaseValueConvertible+RawRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DatabaseValueConvertible+RawRepresentable.swift"; sourceTree = "<group>"; };
-		9418249D21C148A20078BDA5 /* DatabaseValueConvertible+Encodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DatabaseValueConvertible+Encodable.swift"; sourceTree = "<group>"; };
-		9418249E21C148A20078BDA5 /* DatabaseValueConvertible+Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DatabaseValueConvertible+Decodable.swift"; sourceTree = "<group>"; };
-		941824A021C148A20078BDA5 /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
-		941824A221C148A20078BDA5 /* NSString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSString.swift; sourceTree = "<group>"; };
-		941824A321C148A20078BDA5 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
-		941824A421C148A20078BDA5 /* NSNull.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSNull.swift; sourceTree = "<group>"; };
-		941824A521C148A20078BDA5 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		941824A621C148A20078BDA5 /* DatabaseValueConvertible+ReferenceConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DatabaseValueConvertible+ReferenceConvertible.swift"; sourceTree = "<group>"; };
-		941824A721C148A20078BDA5 /* UUID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UUID.swift; sourceTree = "<group>"; };
-		941824A821C148A20078BDA5 /* DatabaseDateComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseDateComponents.swift; sourceTree = "<group>"; };
-		941824A921C148A20078BDA5 /* NSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSData.swift; sourceTree = "<group>"; };
-		941824AA21C148A20078BDA5 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
-		941824AB21C148A20078BDA5 /* SQLiteDateParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDateParser.swift; sourceTree = "<group>"; };
-		941824AC21C148A20078BDA5 /* NSNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSNumber.swift; sourceTree = "<group>"; };
-		941824AD21C148A20078BDA5 /* TransactionObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionObserver.swift; sourceTree = "<group>"; };
-		941824AE21C148A20078BDA5 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
-		941824AF21C148A20078BDA5 /* DatabaseRegion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseRegion.swift; sourceTree = "<group>"; };
-		941824B021C148A20078BDA5 /* DatabaseRegionObservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseRegionObservation.swift; sourceTree = "<group>"; };
-		941824B121C148A20078BDA5 /* Cursor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cursor.swift; sourceTree = "<group>"; };
-		941824B221C148A20078BDA5 /* Row.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
-		941824B321C148A20078BDA5 /* DatabaseWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseWriter.swift; sourceTree = "<group>"; };
-		941824B421C148A20078BDA5 /* DatabaseFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseFunction.swift; sourceTree = "<group>"; };
-		941824B521C148A20078BDA5 /* Statement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statement.swift; sourceTree = "<group>"; };
-		941824B621C148A20078BDA5 /* DatabaseValueConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseValueConvertible.swift; sourceTree = "<group>"; };
-		941824B721C148A20078BDA5 /* DatabaseCollation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseCollation.swift; sourceTree = "<group>"; };
-		941824B821C148A20078BDA5 /* SerializedDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerializedDatabase.swift; sourceTree = "<group>"; };
-		941824B921C148A20078BDA5 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		941824BB21C148A20078BDA5 /* ValueObservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueObservation.swift; sourceTree = "<group>"; };
-		941824BC21C148A20078BDA5 /* ValueObservation+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+Combine.swift"; sourceTree = "<group>"; };
-		941824BD21C148A20078BDA5 /* ValueObservation+DistinctUntilChanged.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+DistinctUntilChanged.swift"; sourceTree = "<group>"; };
-		941824BE21C148A20078BDA5 /* ValueObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueObserver.swift; sourceTree = "<group>"; };
-		941824BF21C148A20078BDA5 /* ValueObservation+MapReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+MapReducer.swift"; sourceTree = "<group>"; };
-		941824C021C148A20078BDA5 /* ValueObservation+Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+Map.swift"; sourceTree = "<group>"; };
-		941824C121C148A20078BDA5 /* ValueObservation+Row.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+Row.swift"; sourceTree = "<group>"; };
-		941824C221C148A20078BDA5 /* ValueObservation+FetchableRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+FetchableRecord.swift"; sourceTree = "<group>"; };
-		941824C321C148A20078BDA5 /* ValueObservation+DatabaseValueConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+DatabaseValueConvertible.swift"; sourceTree = "<group>"; };
-		941824C421C148A20078BDA5 /* ValueObservation+CompactMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+CompactMap.swift"; sourceTree = "<group>"; };
-		941824C521C148A20078BDA5 /* ValueReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueReducer.swift; sourceTree = "<group>"; };
-		941824C621C148A20078BDA5 /* ValueObservation+Count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+Count.swift"; sourceTree = "<group>"; };
-		941824C821C148A20078BDA5 /* DatabaseMigrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseMigrator.swift; sourceTree = "<group>"; };
-		941824C921C148A20078BDA5 /* Migration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Migration.swift; sourceTree = "<group>"; };
-		941824CB21C148A20078BDA5 /* FTS5Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS5Pattern.swift; sourceTree = "<group>"; };
-		941824CC21C148A20078BDA5 /* FTS5CustomTokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS5CustomTokenizer.swift; sourceTree = "<group>"; };
-		941824CD21C148A20078BDA5 /* FTS3TokenizerDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS3TokenizerDescriptor.swift; sourceTree = "<group>"; };
-		941824CE21C148A20078BDA5 /* FTS3Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS3Pattern.swift; sourceTree = "<group>"; };
-		941824CF21C148A20078BDA5 /* FTS5Tokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS5Tokenizer.swift; sourceTree = "<group>"; };
-		941824D021C148A20078BDA5 /* FTS4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS4.swift; sourceTree = "<group>"; };
-		941824D121C148A20078BDA5 /* FTS5TokenizerDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS5TokenizerDescriptor.swift; sourceTree = "<group>"; };
-		941824D221C148A20078BDA5 /* FTS5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS5.swift; sourceTree = "<group>"; };
-		941824D321C148A20078BDA5 /* FTS5WrapperTokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS5WrapperTokenizer.swift; sourceTree = "<group>"; };
-		941824D421C148A20078BDA5 /* FTS3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS3.swift; sourceTree = "<group>"; };
-		941824D621C148A20078BDA5 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		941824D721C148A20078BDA5 /* ReadWriteBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadWriteBox.swift; sourceTree = "<group>"; };
-		941824D821C148A20078BDA5 /* Pool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pool.swift; sourceTree = "<group>"; };
-		941824D921C148A20078BDA5 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		941824DA21C148A20078BDA5 /* OrderedDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderedDictionary.swift; sourceTree = "<group>"; };
-		941824DB21C148A20078BDA5 /* Inflections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inflections.swift; sourceTree = "<group>"; };
-		941824DD21C148A30078BDA5 /* Fixits-0-84-0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fixits-0-84-0.swift"; sourceTree = "<group>"; };
-		941824DE21C148A30078BDA5 /* Fixits-0.109.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fixits-0.109.0.swift"; sourceTree = "<group>"; };
-		941824DF21C148A30078BDA5 /* Fixits-0.101.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fixits-0.101.1.swift"; sourceTree = "<group>"; };
-		941824E021C148A30078BDA5 /* Fixits-0-90-1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fixits-0-90-1.swift"; sourceTree = "<group>"; };
-		941824E121C148A30078BDA5 /* Fixits-1.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fixits-1.2.swift"; sourceTree = "<group>"; };
-		941824E221C148A30078BDA5 /* Fixits-Swift2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fixits-Swift2.swift"; sourceTree = "<group>"; };
-		941824E321C148A30078BDA5 /* Fixits-3.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fixits-3.0.swift"; sourceTree = "<group>"; };
-		941824E521C148A30078BDA5 /* TableDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDefinition.swift; sourceTree = "<group>"; };
-		941824E721C148A30078BDA5 /* BelongsToAssociation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BelongsToAssociation.swift; sourceTree = "<group>"; };
-		941824E821C148A30078BDA5 /* HasOneAssociation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasOneAssociation.swift; sourceTree = "<group>"; };
-		941824E921C148A30078BDA5 /* AssociationQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociationQuery.swift; sourceTree = "<group>"; };
-		941824EA21C148A30078BDA5 /* AssociationAggregate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociationAggregate.swift; sourceTree = "<group>"; };
-		941824EB21C148A30078BDA5 /* HasManyAssociation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasManyAssociation.swift; sourceTree = "<group>"; };
-		941824EC21C148A30078BDA5 /* ForeignKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForeignKey.swift; sourceTree = "<group>"; };
-		941824ED21C148A30078BDA5 /* ForeignKeyRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForeignKeyRequest.swift; sourceTree = "<group>"; };
-		941824EE21C148A30078BDA5 /* AssociationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociationRequest.swift; sourceTree = "<group>"; };
-		941824EF21C148A30078BDA5 /* Association.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Association.swift; sourceTree = "<group>"; };
-		941824F021C148A30078BDA5 /* QueryInterfaceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryInterfaceRequest.swift; sourceTree = "<group>"; };
-		941824F121C148A30078BDA5 /* RequestProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestProtocols.swift; sourceTree = "<group>"; };
-		941824F221C148A30078BDA5 /* FTS5+QueryInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FTS5+QueryInterface.swift"; sourceTree = "<group>"; };
-		941824F321C148A30078BDA5 /* SQLCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLCollection.swift; sourceTree = "<group>"; };
-		941824F421C148A30078BDA5 /* SQLExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLExpression.swift; sourceTree = "<group>"; };
-		941824F521C148A30078BDA5 /* SQLOrdering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLOrdering.swift; sourceTree = "<group>"; };
-		941824F621C148A30078BDA5 /* SQLExpressible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLExpressible.swift; sourceTree = "<group>"; };
-		941824F721C148A30078BDA5 /* QueryInterfaceQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryInterfaceQuery.swift; sourceTree = "<group>"; };
-		941824F821C148A30078BDA5 /* QueryOrdering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryOrdering.swift; sourceTree = "<group>"; };
-		941824F921C148A30078BDA5 /* SQLExpression+QueryInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SQLExpression+QueryInterface.swift"; sourceTree = "<group>"; };
-		941824FA21C148A30078BDA5 /* SQLSelectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLSelectable.swift; sourceTree = "<group>"; };
-		941824FB21C148A30078BDA5 /* Column.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Column.swift; sourceTree = "<group>"; };
-		941824FC21C148A30078BDA5 /* SQLSpecificExpressible+QueryInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SQLSpecificExpressible+QueryInterface.swift"; sourceTree = "<group>"; };
-		941824FE21C148A30078BDA5 /* SQLOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLOperators.swift; sourceTree = "<group>"; };
-		941824FF21C148A30078BDA5 /* SQLFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLFunctions.swift; sourceTree = "<group>"; };
-		9418250021C148A30078BDA5 /* SQLCollatedExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLCollatedExpression.swift; sourceTree = "<group>"; };
-		9418250121C148A30078BDA5 /* QueryInterfaceRequest+Association.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QueryInterfaceRequest+Association.swift"; sourceTree = "<group>"; };
-		9418250221C148A30078BDA5 /* VirtualTableModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualTableModule.swift; sourceTree = "<group>"; };
-		9418250321C148A30078BDA5 /* SQLGenerationContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLGenerationContext.swift; sourceTree = "<group>"; };
-		9418250421C148A30078BDA5 /* FTS3+QueryInterfaceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FTS3+QueryInterfaceRequest.swift"; sourceTree = "<group>"; };
-		9418250521C148A30078BDA5 /* SQLSelectable+QueryInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SQLSelectable+QueryInterface.swift"; sourceTree = "<group>"; };
 		9418258321C1498F0078BDA5 /* grdb_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grdb_config.h; sourceTree = "<group>"; };
 		9418258D21C14BA40078BDA5 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		9418259221C14CD60078BDA5 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -273,6 +154,127 @@
 		94B4EF9221C13B9C0007A32B /* GRDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GRDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B4EF9521C13B9C0007A32B /* GRDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRDB.h; sourceTree = "<group>"; };
 		94B4EF9621C13B9C0007A32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94DD5A8F2254A18200FA967B /* TableDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDefinition.swift; sourceTree = "<group>"; };
+		94DD5A912254A18200FA967B /* BelongsToAssociation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BelongsToAssociation.swift; sourceTree = "<group>"; };
+		94DD5A922254A18200FA967B /* HasOneAssociation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasOneAssociation.swift; sourceTree = "<group>"; };
+		94DD5A932254A18200FA967B /* AssociationAggregate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociationAggregate.swift; sourceTree = "<group>"; };
+		94DD5A942254A18200FA967B /* HasManyAssociation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasManyAssociation.swift; sourceTree = "<group>"; };
+		94DD5A952254A18200FA967B /* ForeignKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForeignKey.swift; sourceTree = "<group>"; };
+		94DD5A962254A18200FA967B /* HasManyThroughAssociation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasManyThroughAssociation.swift; sourceTree = "<group>"; };
+		94DD5A972254A18200FA967B /* ForeignKeyRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForeignKeyRequest.swift; sourceTree = "<group>"; };
+		94DD5A982254A18200FA967B /* Association.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Association.swift; sourceTree = "<group>"; };
+		94DD5A992254A18200FA967B /* HasOneThroughAssociation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasOneThroughAssociation.swift; sourceTree = "<group>"; };
+		94DD5A9A2254A18200FA967B /* QueryInterfaceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryInterfaceRequest.swift; sourceTree = "<group>"; };
+		94DD5A9B2254A18200FA967B /* SQLInterpolation+QueryInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SQLInterpolation+QueryInterface.swift"; sourceTree = "<group>"; };
+		94DD5A9C2254A18200FA967B /* SQLSelectQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLSelectQuery.swift; sourceTree = "<group>"; };
+		94DD5A9D2254A18200FA967B /* RequestProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestProtocols.swift; sourceTree = "<group>"; };
+		94DD5A9E2254A18200FA967B /* DatabasePromise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabasePromise.swift; sourceTree = "<group>"; };
+		94DD5A9F2254A18200FA967B /* FTS5+QueryInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FTS5+QueryInterface.swift"; sourceTree = "<group>"; };
+		94DD5AA02254A18200FA967B /* SQLCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLCollection.swift; sourceTree = "<group>"; };
+		94DD5AA12254A18200FA967B /* SQLExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLExpression.swift; sourceTree = "<group>"; };
+		94DD5AA22254A18200FA967B /* SQLOrdering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLOrdering.swift; sourceTree = "<group>"; };
+		94DD5AA32254A18200FA967B /* SQLExpressible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLExpressible.swift; sourceTree = "<group>"; };
+		94DD5AA42254A18200FA967B /* SQLExpression+QueryInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SQLExpression+QueryInterface.swift"; sourceTree = "<group>"; };
+		94DD5AA52254A18200FA967B /* SQLSelectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLSelectable.swift; sourceTree = "<group>"; };
+		94DD5AA62254A18200FA967B /* Column.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Column.swift; sourceTree = "<group>"; };
+		94DD5AA72254A18200FA967B /* SQLSpecificExpressible+QueryInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SQLSpecificExpressible+QueryInterface.swift"; sourceTree = "<group>"; };
+		94DD5AA92254A18200FA967B /* SQLOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLOperators.swift; sourceTree = "<group>"; };
+		94DD5AAA2254A18200FA967B /* SQLFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLFunctions.swift; sourceTree = "<group>"; };
+		94DD5AAB2254A18200FA967B /* SQLSelectQueryGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLSelectQueryGenerator.swift; sourceTree = "<group>"; };
+		94DD5AAC2254A18200FA967B /* SQLCollatedExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLCollatedExpression.swift; sourceTree = "<group>"; };
+		94DD5AAD2254A18200FA967B /* QueryInterfaceRequest+Association.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QueryInterfaceRequest+Association.swift"; sourceTree = "<group>"; };
+		94DD5AAE2254A18200FA967B /* VirtualTableModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualTableModule.swift; sourceTree = "<group>"; };
+		94DD5AAF2254A18200FA967B /* SQLRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLRelation.swift; sourceTree = "<group>"; };
+		94DD5AB02254A18200FA967B /* SQLGenerationContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLGenerationContext.swift; sourceTree = "<group>"; };
+		94DD5AB12254A18200FA967B /* FTS3+QueryInterfaceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FTS3+QueryInterfaceRequest.swift"; sourceTree = "<group>"; };
+		94DD5AB22254A18200FA967B /* SQLSelectable+QueryInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SQLSelectable+QueryInterface.swift"; sourceTree = "<group>"; };
+		94DD5AB42254A18200FA967B /* DatabaseQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseQueue.swift; sourceTree = "<group>"; };
+		94DD5AB52254A18200FA967B /* SQLRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLRequest.swift; sourceTree = "<group>"; };
+		94DD5AB62254A18200FA967B /* RowAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowAdapter.swift; sourceTree = "<group>"; };
+		94DD5AB72254A18200FA967B /* StatementAuthorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatementAuthorizer.swift; sourceTree = "<group>"; };
+		94DD5AB82254A18200FA967B /* FetchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchRequest.swift; sourceTree = "<group>"; };
+		94DD5AB92254A18200FA967B /* Database+Statements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Database+Statements.swift"; sourceTree = "<group>"; };
+		94DD5ABA2254A18200FA967B /* DatabaseSchemaCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseSchemaCache.swift; sourceTree = "<group>"; };
+		94DD5ABB2254A18200FA967B /* DatabaseReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseReader.swift; sourceTree = "<group>"; };
+		94DD5ABC2254A18200FA967B /* DatabaseValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseValue.swift; sourceTree = "<group>"; };
+		94DD5ABD2254A18200FA967B /* SQLLiteral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLLiteral.swift; sourceTree = "<group>"; };
+		94DD5ABE2254A18200FA967B /* DatabaseValueConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseValueConversion.swift; sourceTree = "<group>"; };
+		94DD5ABF2254A18200FA967B /* DatabaseSnapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseSnapshot.swift; sourceTree = "<group>"; };
+		94DD5AC02254A18200FA967B /* StatementColumnConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatementColumnConvertible.swift; sourceTree = "<group>"; };
+		94DD5AC12254A18200FA967B /* DatabasePool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabasePool.swift; sourceTree = "<group>"; };
+		94DD5AC22254A18200FA967B /* SchedulingWatchdog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulingWatchdog.swift; sourceTree = "<group>"; };
+		94DD5AC32254A18200FA967B /* DatabaseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseError.swift; sourceTree = "<group>"; };
+		94DD5AC42254A18200FA967B /* Database+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Database+Schema.swift"; sourceTree = "<group>"; };
+		94DD5AC72254A18200FA967B /* StandardLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardLibrary.swift; sourceTree = "<group>"; };
+		94DD5AC82254A18200FA967B /* DatabaseValueConvertible+RawRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DatabaseValueConvertible+RawRepresentable.swift"; sourceTree = "<group>"; };
+		94DD5AC92254A18200FA967B /* DatabaseValueConvertible+Encodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DatabaseValueConvertible+Encodable.swift"; sourceTree = "<group>"; };
+		94DD5ACA2254A18200FA967B /* DatabaseValueConvertible+Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DatabaseValueConvertible+Decodable.swift"; sourceTree = "<group>"; };
+		94DD5ACC2254A18200FA967B /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		94DD5ACE2254A18200FA967B /* NSString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSString.swift; sourceTree = "<group>"; };
+		94DD5ACF2254A18200FA967B /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		94DD5AD02254A18200FA967B /* NSNull.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSNull.swift; sourceTree = "<group>"; };
+		94DD5AD12254A18200FA967B /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		94DD5AD22254A18200FA967B /* DatabaseValueConvertible+ReferenceConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DatabaseValueConvertible+ReferenceConvertible.swift"; sourceTree = "<group>"; };
+		94DD5AD32254A18200FA967B /* UUID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UUID.swift; sourceTree = "<group>"; };
+		94DD5AD42254A18200FA967B /* DatabaseDateComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseDateComponents.swift; sourceTree = "<group>"; };
+		94DD5AD52254A18200FA967B /* NSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSData.swift; sourceTree = "<group>"; };
+		94DD5AD62254A18200FA967B /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		94DD5AD72254A18200FA967B /* SQLiteDateParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDateParser.swift; sourceTree = "<group>"; };
+		94DD5AD82254A18200FA967B /* NSNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSNumber.swift; sourceTree = "<group>"; };
+		94DD5AD92254A18200FA967B /* TransactionObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionObserver.swift; sourceTree = "<group>"; };
+		94DD5ADA2254A18200FA967B /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		94DD5ADB2254A18200FA967B /* DatabaseRegion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseRegion.swift; sourceTree = "<group>"; };
+		94DD5ADC2254A18200FA967B /* DatabaseRegionObservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseRegionObservation.swift; sourceTree = "<group>"; };
+		94DD5ADD2254A18200FA967B /* Cursor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cursor.swift; sourceTree = "<group>"; };
+		94DD5ADE2254A18200FA967B /* Row.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		94DD5ADF2254A18200FA967B /* DatabaseWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseWriter.swift; sourceTree = "<group>"; };
+		94DD5AE02254A18200FA967B /* SQLInterpolation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLInterpolation.swift; sourceTree = "<group>"; };
+		94DD5AE12254A18200FA967B /* DatabaseFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseFunction.swift; sourceTree = "<group>"; };
+		94DD5AE22254A18200FA967B /* Statement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statement.swift; sourceTree = "<group>"; };
+		94DD5AE32254A18200FA967B /* DatabaseValueConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseValueConvertible.swift; sourceTree = "<group>"; };
+		94DD5AE42254A18200FA967B /* DatabaseCollation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseCollation.swift; sourceTree = "<group>"; };
+		94DD5AE52254A18200FA967B /* SerializedDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerializedDatabase.swift; sourceTree = "<group>"; };
+		94DD5AE62254A18200FA967B /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		94DD5AE82254A18200FA967B /* EncodableRecord+Encodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EncodableRecord+Encodable.swift"; sourceTree = "<group>"; };
+		94DD5AE92254A18200FA967B /* EncodableRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncodableRecord.swift; sourceTree = "<group>"; };
+		94DD5AEA2254A18200FA967B /* FetchableRecord+Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FetchableRecord+Decodable.swift"; sourceTree = "<group>"; };
+		94DD5AEB2254A18200FA967B /* FetchableRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchableRecord.swift; sourceTree = "<group>"; };
+		94DD5AEC2254A18200FA967B /* FetchedRecordsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedRecordsController.swift; sourceTree = "<group>"; };
+		94DD5AED2254A18200FA967B /* TableRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRecord.swift; sourceTree = "<group>"; };
+		94DD5AEE2254A18200FA967B /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		94DD5AEF2254A18200FA967B /* PersistableRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistableRecord.swift; sourceTree = "<group>"; };
+		94DD5AF02254A18200FA967B /* FetchableRecord+TableRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FetchableRecord+TableRecord.swift"; sourceTree = "<group>"; };
+		94DD5AF22254A18200FA967B /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		94DD5AF32254A18200FA967B /* ReadWriteBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadWriteBox.swift; sourceTree = "<group>"; };
+		94DD5AF42254A18200FA967B /* Pool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pool.swift; sourceTree = "<group>"; };
+		94DD5AF52254A18200FA967B /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		94DD5AF62254A18200FA967B /* OrderedDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderedDictionary.swift; sourceTree = "<group>"; };
+		94DD5AF72254A18200FA967B /* Inflections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inflections.swift; sourceTree = "<group>"; };
+		94DD5AF92254A18200FA967B /* FTS5Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS5Pattern.swift; sourceTree = "<group>"; };
+		94DD5AFA2254A18200FA967B /* FTS5CustomTokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS5CustomTokenizer.swift; sourceTree = "<group>"; };
+		94DD5AFB2254A18200FA967B /* FTS3TokenizerDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS3TokenizerDescriptor.swift; sourceTree = "<group>"; };
+		94DD5AFC2254A18200FA967B /* FTS3Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS3Pattern.swift; sourceTree = "<group>"; };
+		94DD5AFD2254A18200FA967B /* FTS5Tokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS5Tokenizer.swift; sourceTree = "<group>"; };
+		94DD5AFE2254A18200FA967B /* FTS4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS4.swift; sourceTree = "<group>"; };
+		94DD5AFF2254A18200FA967B /* FTS5TokenizerDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS5TokenizerDescriptor.swift; sourceTree = "<group>"; };
+		94DD5B002254A18200FA967B /* FTS5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS5.swift; sourceTree = "<group>"; };
+		94DD5B012254A18200FA967B /* FTS5WrapperTokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS5WrapperTokenizer.swift; sourceTree = "<group>"; };
+		94DD5B022254A18200FA967B /* FTS3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS3.swift; sourceTree = "<group>"; };
+		94DD5B042254A18200FA967B /* GRDB-4.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GRDB-4.0.swift"; sourceTree = "<group>"; };
+		94DD5B062254A18200FA967B /* ValueObservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueObservation.swift; sourceTree = "<group>"; };
+		94DD5B072254A18200FA967B /* ValueObservation+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+Combine.swift"; sourceTree = "<group>"; };
+		94DD5B082254A18200FA967B /* ValueObservation+DistinctUntilChanged.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+DistinctUntilChanged.swift"; sourceTree = "<group>"; };
+		94DD5B092254A18200FA967B /* ValueObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueObserver.swift; sourceTree = "<group>"; };
+		94DD5B0A2254A18200FA967B /* ValueObservation+MapReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+MapReducer.swift"; sourceTree = "<group>"; };
+		94DD5B0B2254A18200FA967B /* ValueObservation+Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+Map.swift"; sourceTree = "<group>"; };
+		94DD5B0C2254A18200FA967B /* ValueObservation+Row.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+Row.swift"; sourceTree = "<group>"; };
+		94DD5B0D2254A18200FA967B /* ValueObservation+FetchableRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+FetchableRecord.swift"; sourceTree = "<group>"; };
+		94DD5B0E2254A18200FA967B /* ValueObservation+DatabaseValueConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+DatabaseValueConvertible.swift"; sourceTree = "<group>"; };
+		94DD5B0F2254A18200FA967B /* ValueObservation+CompactMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+CompactMap.swift"; sourceTree = "<group>"; };
+		94DD5B102254A18200FA967B /* ValueReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueReducer.swift; sourceTree = "<group>"; };
+		94DD5B112254A18200FA967B /* ValueObservation+Count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValueObservation+Count.swift"; sourceTree = "<group>"; };
+		94DD5B132254A18200FA967B /* DatabaseMigrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseMigrator.swift; sourceTree = "<group>"; };
+		94DD5B142254A18200FA967B /* Migration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Migration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,230 +295,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9418248021C148A20078BDA5 /* Record */ = {
-			isa = PBXGroup;
-			children = (
-				9418248121C148A20078BDA5 /* PersistableRecord+Encodable.swift */,
-				9418248221C148A20078BDA5 /* FetchableRecord+Decodable.swift */,
-				9418248321C148A20078BDA5 /* FetchableRecord.swift */,
-				9418248421C148A20078BDA5 /* FetchedRecordsController.swift */,
-				9418248521C148A20078BDA5 /* TableRecord.swift */,
-				9418248621C148A20078BDA5 /* Record.swift */,
-				9418248721C148A20078BDA5 /* PersistableRecord.swift */,
-				9418248821C148A20078BDA5 /* FetchableRecord+TableRecord.swift */,
-			);
-			path = Record;
-			sourceTree = "<group>";
-		};
-		9418248921C148A20078BDA5 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				9418248A21C148A20078BDA5 /* DatabaseQueue.swift */,
-				9418248B21C148A20078BDA5 /* RowAdapter.swift */,
-				9418248C21C148A20078BDA5 /* StatementAuthorizer.swift */,
-				9418248D21C148A20078BDA5 /* FetchRequest.swift */,
-				9418248E21C148A20078BDA5 /* Database+Statements.swift */,
-				9418248F21C148A20078BDA5 /* DatabaseSchemaCache.swift */,
-				9418249021C148A20078BDA5 /* DatabaseReader.swift */,
-				9418249121C148A20078BDA5 /* DatabaseValue.swift */,
-				9418249221C148A20078BDA5 /* DatabaseValueConversion.swift */,
-				9418249321C148A20078BDA5 /* DatabaseSnapshot.swift */,
-				9418249421C148A20078BDA5 /* StatementColumnConvertible.swift */,
-				9418249521C148A20078BDA5 /* DatabasePool.swift */,
-				9418249621C148A20078BDA5 /* SchedulingWatchdog.swift */,
-				9418249721C148A20078BDA5 /* DatabaseError.swift */,
-				9418249821C148A20078BDA5 /* Database+Schema.swift */,
-				9418249921C148A20078BDA5 /* Support */,
-				941824AD21C148A20078BDA5 /* TransactionObserver.swift */,
-				941824AE21C148A20078BDA5 /* Database.swift */,
-				941824AF21C148A20078BDA5 /* DatabaseRegion.swift */,
-				941824B021C148A20078BDA5 /* DatabaseRegionObservation.swift */,
-				941824B121C148A20078BDA5 /* Cursor.swift */,
-				941824B221C148A20078BDA5 /* Row.swift */,
-				941824B321C148A20078BDA5 /* DatabaseWriter.swift */,
-				941824B421C148A20078BDA5 /* DatabaseFunction.swift */,
-				941824B521C148A20078BDA5 /* Statement.swift */,
-				941824B621C148A20078BDA5 /* DatabaseValueConvertible.swift */,
-				941824B721C148A20078BDA5 /* DatabaseCollation.swift */,
-				941824B821C148A20078BDA5 /* SerializedDatabase.swift */,
-				941824B921C148A20078BDA5 /* Configuration.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		9418249921C148A20078BDA5 /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				9418249A21C148A20078BDA5 /* StandardLibrary */,
-				9418249F21C148A20078BDA5 /* CoreGraphics */,
-				941824A121C148A20078BDA5 /* Foundation */,
-			);
-			path = Support;
-			sourceTree = "<group>";
-		};
-		9418249A21C148A20078BDA5 /* StandardLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				9418249B21C148A20078BDA5 /* StandardLibrary.swift */,
-				9418249C21C148A20078BDA5 /* DatabaseValueConvertible+RawRepresentable.swift */,
-				9418249D21C148A20078BDA5 /* DatabaseValueConvertible+Encodable.swift */,
-				9418249E21C148A20078BDA5 /* DatabaseValueConvertible+Decodable.swift */,
-			);
-			path = StandardLibrary;
-			sourceTree = "<group>";
-		};
-		9418249F21C148A20078BDA5 /* CoreGraphics */ = {
-			isa = PBXGroup;
-			children = (
-				941824A021C148A20078BDA5 /* CGFloat.swift */,
-			);
-			path = CoreGraphics;
-			sourceTree = "<group>";
-		};
-		941824A121C148A20078BDA5 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				941824A221C148A20078BDA5 /* NSString.swift */,
-				941824A321C148A20078BDA5 /* Date.swift */,
-				941824A421C148A20078BDA5 /* NSNull.swift */,
-				941824A521C148A20078BDA5 /* Data.swift */,
-				941824A621C148A20078BDA5 /* DatabaseValueConvertible+ReferenceConvertible.swift */,
-				941824A721C148A20078BDA5 /* UUID.swift */,
-				941824A821C148A20078BDA5 /* DatabaseDateComponents.swift */,
-				941824A921C148A20078BDA5 /* NSData.swift */,
-				941824AA21C148A20078BDA5 /* URL.swift */,
-				941824AB21C148A20078BDA5 /* SQLiteDateParser.swift */,
-				941824AC21C148A20078BDA5 /* NSNumber.swift */,
-			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		941824BA21C148A20078BDA5 /* ValueObservation */ = {
-			isa = PBXGroup;
-			children = (
-				941824BB21C148A20078BDA5 /* ValueObservation.swift */,
-				941824BC21C148A20078BDA5 /* ValueObservation+Combine.swift */,
-				941824BD21C148A20078BDA5 /* ValueObservation+DistinctUntilChanged.swift */,
-				941824BE21C148A20078BDA5 /* ValueObserver.swift */,
-				941824BF21C148A20078BDA5 /* ValueObservation+MapReducer.swift */,
-				941824C021C148A20078BDA5 /* ValueObservation+Map.swift */,
-				941824C121C148A20078BDA5 /* ValueObservation+Row.swift */,
-				941824C221C148A20078BDA5 /* ValueObservation+FetchableRecord.swift */,
-				941824C321C148A20078BDA5 /* ValueObservation+DatabaseValueConvertible.swift */,
-				941824C421C148A20078BDA5 /* ValueObservation+CompactMap.swift */,
-				941824C521C148A20078BDA5 /* ValueReducer.swift */,
-				941824C621C148A20078BDA5 /* ValueObservation+Count.swift */,
-			);
-			path = ValueObservation;
-			sourceTree = "<group>";
-		};
-		941824C721C148A20078BDA5 /* Migration */ = {
-			isa = PBXGroup;
-			children = (
-				941824C821C148A20078BDA5 /* DatabaseMigrator.swift */,
-				941824C921C148A20078BDA5 /* Migration.swift */,
-			);
-			path = Migration;
-			sourceTree = "<group>";
-		};
-		941824CA21C148A20078BDA5 /* FTS */ = {
-			isa = PBXGroup;
-			children = (
-				941824CB21C148A20078BDA5 /* FTS5Pattern.swift */,
-				941824CC21C148A20078BDA5 /* FTS5CustomTokenizer.swift */,
-				941824CD21C148A20078BDA5 /* FTS3TokenizerDescriptor.swift */,
-				941824CE21C148A20078BDA5 /* FTS3Pattern.swift */,
-				941824CF21C148A20078BDA5 /* FTS5Tokenizer.swift */,
-				941824D021C148A20078BDA5 /* FTS4.swift */,
-				941824D121C148A20078BDA5 /* FTS5TokenizerDescriptor.swift */,
-				941824D221C148A20078BDA5 /* FTS5.swift */,
-				941824D321C148A20078BDA5 /* FTS5WrapperTokenizer.swift */,
-				941824D421C148A20078BDA5 /* FTS3.swift */,
-			);
-			path = FTS;
-			sourceTree = "<group>";
-		};
-		941824D521C148A20078BDA5 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				941824D621C148A20078BDA5 /* Result.swift */,
-				941824D721C148A20078BDA5 /* ReadWriteBox.swift */,
-				941824D821C148A20078BDA5 /* Pool.swift */,
-				941824D921C148A20078BDA5 /* Utils.swift */,
-				941824DA21C148A20078BDA5 /* OrderedDictionary.swift */,
-				941824DB21C148A20078BDA5 /* Inflections.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		941824DC21C148A30078BDA5 /* Legacy */ = {
-			isa = PBXGroup;
-			children = (
-				941824DD21C148A30078BDA5 /* Fixits-0-84-0.swift */,
-				941824DE21C148A30078BDA5 /* Fixits-0.109.0.swift */,
-				941824DF21C148A30078BDA5 /* Fixits-0.101.1.swift */,
-				941824E021C148A30078BDA5 /* Fixits-0-90-1.swift */,
-				941824E121C148A30078BDA5 /* Fixits-1.2.swift */,
-				941824E221C148A30078BDA5 /* Fixits-Swift2.swift */,
-				941824E321C148A30078BDA5 /* Fixits-3.0.swift */,
-			);
-			path = Legacy;
-			sourceTree = "<group>";
-		};
-		941824E421C148A30078BDA5 /* QueryInterface */ = {
-			isa = PBXGroup;
-			children = (
-				941824E521C148A30078BDA5 /* TableDefinition.swift */,
-				941824E621C148A30078BDA5 /* Association */,
-				941824F021C148A30078BDA5 /* QueryInterfaceRequest.swift */,
-				941824F121C148A30078BDA5 /* RequestProtocols.swift */,
-				941824F221C148A30078BDA5 /* FTS5+QueryInterface.swift */,
-				941824F321C148A30078BDA5 /* SQLCollection.swift */,
-				941824F421C148A30078BDA5 /* SQLExpression.swift */,
-				941824F521C148A30078BDA5 /* SQLOrdering.swift */,
-				941824F621C148A30078BDA5 /* SQLExpressible.swift */,
-				941824F721C148A30078BDA5 /* QueryInterfaceQuery.swift */,
-				941824F821C148A30078BDA5 /* QueryOrdering.swift */,
-				941824F921C148A30078BDA5 /* SQLExpression+QueryInterface.swift */,
-				941824FA21C148A30078BDA5 /* SQLSelectable.swift */,
-				941824FB21C148A30078BDA5 /* Column.swift */,
-				941824FC21C148A30078BDA5 /* SQLSpecificExpressible+QueryInterface.swift */,
-				941824FD21C148A30078BDA5 /* Support */,
-				9418250021C148A30078BDA5 /* SQLCollatedExpression.swift */,
-				9418250121C148A30078BDA5 /* QueryInterfaceRequest+Association.swift */,
-				9418250221C148A30078BDA5 /* VirtualTableModule.swift */,
-				9418250321C148A30078BDA5 /* SQLGenerationContext.swift */,
-				9418250421C148A30078BDA5 /* FTS3+QueryInterfaceRequest.swift */,
-				9418250521C148A30078BDA5 /* SQLSelectable+QueryInterface.swift */,
-			);
-			path = QueryInterface;
-			sourceTree = "<group>";
-		};
-		941824E621C148A30078BDA5 /* Association */ = {
-			isa = PBXGroup;
-			children = (
-				941824E721C148A30078BDA5 /* BelongsToAssociation.swift */,
-				941824E821C148A30078BDA5 /* HasOneAssociation.swift */,
-				941824E921C148A30078BDA5 /* AssociationQuery.swift */,
-				941824EA21C148A30078BDA5 /* AssociationAggregate.swift */,
-				941824EB21C148A30078BDA5 /* HasManyAssociation.swift */,
-				941824EC21C148A30078BDA5 /* ForeignKey.swift */,
-				941824ED21C148A30078BDA5 /* ForeignKeyRequest.swift */,
-				941824EE21C148A30078BDA5 /* AssociationRequest.swift */,
-				941824EF21C148A30078BDA5 /* Association.swift */,
-			);
-			path = Association;
-			sourceTree = "<group>";
-		};
-		941824FD21C148A30078BDA5 /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				941824FE21C148A30078BDA5 /* SQLOperators.swift */,
-				941824FF21C148A30078BDA5 /* SQLFunctions.swift */,
-			);
-			path = Support;
-			sourceTree = "<group>";
-		};
 		9418259321C14CD60078BDA5 /* demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -555,19 +333,252 @@
 			isa = PBXGroup;
 			children = (
 				94B4EF9521C13B9C0007A32B /* GRDB.h */,
-				9418248921C148A20078BDA5 /* Core */,
-				941824CA21C148A20078BDA5 /* FTS */,
-				941824DC21C148A30078BDA5 /* Legacy */,
-				941824C721C148A20078BDA5 /* Migration */,
-				941824E421C148A30078BDA5 /* QueryInterface */,
-				9418248021C148A20078BDA5 /* Record */,
-				941824D521C148A20078BDA5 /* Utils */,
-				941824BA21C148A20078BDA5 /* ValueObservation */,
+				94DD5A8D2254A18200FA967B /* GRDB */,
 				94B4EF9621C13B9C0007A32B /* Info.plist */,
 				9418258321C1498F0078BDA5 /* grdb_config.h */,
 				9418258D21C14BA40078BDA5 /* module.modulemap */,
 			);
 			path = GRDB;
+			sourceTree = "<group>";
+		};
+		94DD5A8D2254A18200FA967B /* GRDB */ = {
+			isa = PBXGroup;
+			children = (
+				94DD5A8E2254A18200FA967B /* QueryInterface */,
+				94DD5AB32254A18200FA967B /* Core */,
+				94DD5AE72254A18200FA967B /* Record */,
+				94DD5AF12254A18200FA967B /* Utils */,
+				94DD5AF82254A18200FA967B /* FTS */,
+				94DD5B032254A18200FA967B /* Fixit */,
+				94DD5B052254A18200FA967B /* ValueObservation */,
+				94DD5B122254A18200FA967B /* Migration */,
+			);
+			path = GRDB;
+			sourceTree = "<group>";
+		};
+		94DD5A8E2254A18200FA967B /* QueryInterface */ = {
+			isa = PBXGroup;
+			children = (
+				94DD5A8F2254A18200FA967B /* TableDefinition.swift */,
+				94DD5A902254A18200FA967B /* Association */,
+				94DD5A9A2254A18200FA967B /* QueryInterfaceRequest.swift */,
+				94DD5A9B2254A18200FA967B /* SQLInterpolation+QueryInterface.swift */,
+				94DD5A9C2254A18200FA967B /* SQLSelectQuery.swift */,
+				94DD5A9D2254A18200FA967B /* RequestProtocols.swift */,
+				94DD5A9E2254A18200FA967B /* DatabasePromise.swift */,
+				94DD5A9F2254A18200FA967B /* FTS5+QueryInterface.swift */,
+				94DD5AA02254A18200FA967B /* SQLCollection.swift */,
+				94DD5AA12254A18200FA967B /* SQLExpression.swift */,
+				94DD5AA22254A18200FA967B /* SQLOrdering.swift */,
+				94DD5AA32254A18200FA967B /* SQLExpressible.swift */,
+				94DD5AA42254A18200FA967B /* SQLExpression+QueryInterface.swift */,
+				94DD5AA52254A18200FA967B /* SQLSelectable.swift */,
+				94DD5AA62254A18200FA967B /* Column.swift */,
+				94DD5AA72254A18200FA967B /* SQLSpecificExpressible+QueryInterface.swift */,
+				94DD5AA82254A18200FA967B /* Support */,
+				94DD5AAB2254A18200FA967B /* SQLSelectQueryGenerator.swift */,
+				94DD5AAC2254A18200FA967B /* SQLCollatedExpression.swift */,
+				94DD5AAD2254A18200FA967B /* QueryInterfaceRequest+Association.swift */,
+				94DD5AAE2254A18200FA967B /* VirtualTableModule.swift */,
+				94DD5AAF2254A18200FA967B /* SQLRelation.swift */,
+				94DD5AB02254A18200FA967B /* SQLGenerationContext.swift */,
+				94DD5AB12254A18200FA967B /* FTS3+QueryInterfaceRequest.swift */,
+				94DD5AB22254A18200FA967B /* SQLSelectable+QueryInterface.swift */,
+			);
+			path = QueryInterface;
+			sourceTree = "<group>";
+		};
+		94DD5A902254A18200FA967B /* Association */ = {
+			isa = PBXGroup;
+			children = (
+				94DD5A912254A18200FA967B /* BelongsToAssociation.swift */,
+				94DD5A922254A18200FA967B /* HasOneAssociation.swift */,
+				94DD5A932254A18200FA967B /* AssociationAggregate.swift */,
+				94DD5A942254A18200FA967B /* HasManyAssociation.swift */,
+				94DD5A952254A18200FA967B /* ForeignKey.swift */,
+				94DD5A962254A18200FA967B /* HasManyThroughAssociation.swift */,
+				94DD5A972254A18200FA967B /* ForeignKeyRequest.swift */,
+				94DD5A982254A18200FA967B /* Association.swift */,
+				94DD5A992254A18200FA967B /* HasOneThroughAssociation.swift */,
+			);
+			path = Association;
+			sourceTree = "<group>";
+		};
+		94DD5AA82254A18200FA967B /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				94DD5AA92254A18200FA967B /* SQLOperators.swift */,
+				94DD5AAA2254A18200FA967B /* SQLFunctions.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		94DD5AB32254A18200FA967B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				94DD5AB42254A18200FA967B /* DatabaseQueue.swift */,
+				94DD5AB52254A18200FA967B /* SQLRequest.swift */,
+				94DD5AB62254A18200FA967B /* RowAdapter.swift */,
+				94DD5AB72254A18200FA967B /* StatementAuthorizer.swift */,
+				94DD5AB82254A18200FA967B /* FetchRequest.swift */,
+				94DD5AB92254A18200FA967B /* Database+Statements.swift */,
+				94DD5ABA2254A18200FA967B /* DatabaseSchemaCache.swift */,
+				94DD5ABB2254A18200FA967B /* DatabaseReader.swift */,
+				94DD5ABC2254A18200FA967B /* DatabaseValue.swift */,
+				94DD5ABD2254A18200FA967B /* SQLLiteral.swift */,
+				94DD5ABE2254A18200FA967B /* DatabaseValueConversion.swift */,
+				94DD5ABF2254A18200FA967B /* DatabaseSnapshot.swift */,
+				94DD5AC02254A18200FA967B /* StatementColumnConvertible.swift */,
+				94DD5AC12254A18200FA967B /* DatabasePool.swift */,
+				94DD5AC22254A18200FA967B /* SchedulingWatchdog.swift */,
+				94DD5AC32254A18200FA967B /* DatabaseError.swift */,
+				94DD5AC42254A18200FA967B /* Database+Schema.swift */,
+				94DD5AC52254A18200FA967B /* Support */,
+				94DD5AD92254A18200FA967B /* TransactionObserver.swift */,
+				94DD5ADA2254A18200FA967B /* Database.swift */,
+				94DD5ADB2254A18200FA967B /* DatabaseRegion.swift */,
+				94DD5ADC2254A18200FA967B /* DatabaseRegionObservation.swift */,
+				94DD5ADD2254A18200FA967B /* Cursor.swift */,
+				94DD5ADE2254A18200FA967B /* Row.swift */,
+				94DD5ADF2254A18200FA967B /* DatabaseWriter.swift */,
+				94DD5AE02254A18200FA967B /* SQLInterpolation.swift */,
+				94DD5AE12254A18200FA967B /* DatabaseFunction.swift */,
+				94DD5AE22254A18200FA967B /* Statement.swift */,
+				94DD5AE32254A18200FA967B /* DatabaseValueConvertible.swift */,
+				94DD5AE42254A18200FA967B /* DatabaseCollation.swift */,
+				94DD5AE52254A18200FA967B /* SerializedDatabase.swift */,
+				94DD5AE62254A18200FA967B /* Configuration.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		94DD5AC52254A18200FA967B /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				94DD5AC62254A18200FA967B /* StandardLibrary */,
+				94DD5ACB2254A18200FA967B /* CoreGraphics */,
+				94DD5ACD2254A18200FA967B /* Foundation */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		94DD5AC62254A18200FA967B /* StandardLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				94DD5AC72254A18200FA967B /* StandardLibrary.swift */,
+				94DD5AC82254A18200FA967B /* DatabaseValueConvertible+RawRepresentable.swift */,
+				94DD5AC92254A18200FA967B /* DatabaseValueConvertible+Encodable.swift */,
+				94DD5ACA2254A18200FA967B /* DatabaseValueConvertible+Decodable.swift */,
+			);
+			path = StandardLibrary;
+			sourceTree = "<group>";
+		};
+		94DD5ACB2254A18200FA967B /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				94DD5ACC2254A18200FA967B /* CGFloat.swift */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		94DD5ACD2254A18200FA967B /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				94DD5ACE2254A18200FA967B /* NSString.swift */,
+				94DD5ACF2254A18200FA967B /* Date.swift */,
+				94DD5AD02254A18200FA967B /* NSNull.swift */,
+				94DD5AD12254A18200FA967B /* Data.swift */,
+				94DD5AD22254A18200FA967B /* DatabaseValueConvertible+ReferenceConvertible.swift */,
+				94DD5AD32254A18200FA967B /* UUID.swift */,
+				94DD5AD42254A18200FA967B /* DatabaseDateComponents.swift */,
+				94DD5AD52254A18200FA967B /* NSData.swift */,
+				94DD5AD62254A18200FA967B /* URL.swift */,
+				94DD5AD72254A18200FA967B /* SQLiteDateParser.swift */,
+				94DD5AD82254A18200FA967B /* NSNumber.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		94DD5AE72254A18200FA967B /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				94DD5AE82254A18200FA967B /* EncodableRecord+Encodable.swift */,
+				94DD5AE92254A18200FA967B /* EncodableRecord.swift */,
+				94DD5AEA2254A18200FA967B /* FetchableRecord+Decodable.swift */,
+				94DD5AEB2254A18200FA967B /* FetchableRecord.swift */,
+				94DD5AEC2254A18200FA967B /* FetchedRecordsController.swift */,
+				94DD5AED2254A18200FA967B /* TableRecord.swift */,
+				94DD5AEE2254A18200FA967B /* Record.swift */,
+				94DD5AEF2254A18200FA967B /* PersistableRecord.swift */,
+				94DD5AF02254A18200FA967B /* FetchableRecord+TableRecord.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		94DD5AF12254A18200FA967B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				94DD5AF22254A18200FA967B /* Result.swift */,
+				94DD5AF32254A18200FA967B /* ReadWriteBox.swift */,
+				94DD5AF42254A18200FA967B /* Pool.swift */,
+				94DD5AF52254A18200FA967B /* Utils.swift */,
+				94DD5AF62254A18200FA967B /* OrderedDictionary.swift */,
+				94DD5AF72254A18200FA967B /* Inflections.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		94DD5AF82254A18200FA967B /* FTS */ = {
+			isa = PBXGroup;
+			children = (
+				94DD5AF92254A18200FA967B /* FTS5Pattern.swift */,
+				94DD5AFA2254A18200FA967B /* FTS5CustomTokenizer.swift */,
+				94DD5AFB2254A18200FA967B /* FTS3TokenizerDescriptor.swift */,
+				94DD5AFC2254A18200FA967B /* FTS3Pattern.swift */,
+				94DD5AFD2254A18200FA967B /* FTS5Tokenizer.swift */,
+				94DD5AFE2254A18200FA967B /* FTS4.swift */,
+				94DD5AFF2254A18200FA967B /* FTS5TokenizerDescriptor.swift */,
+				94DD5B002254A18200FA967B /* FTS5.swift */,
+				94DD5B012254A18200FA967B /* FTS5WrapperTokenizer.swift */,
+				94DD5B022254A18200FA967B /* FTS3.swift */,
+			);
+			path = FTS;
+			sourceTree = "<group>";
+		};
+		94DD5B032254A18200FA967B /* Fixit */ = {
+			isa = PBXGroup;
+			children = (
+				94DD5B042254A18200FA967B /* GRDB-4.0.swift */,
+			);
+			path = Fixit;
+			sourceTree = "<group>";
+		};
+		94DD5B052254A18200FA967B /* ValueObservation */ = {
+			isa = PBXGroup;
+			children = (
+				94DD5B062254A18200FA967B /* ValueObservation.swift */,
+				94DD5B072254A18200FA967B /* ValueObservation+Combine.swift */,
+				94DD5B082254A18200FA967B /* ValueObservation+DistinctUntilChanged.swift */,
+				94DD5B092254A18200FA967B /* ValueObserver.swift */,
+				94DD5B0A2254A18200FA967B /* ValueObservation+MapReducer.swift */,
+				94DD5B0B2254A18200FA967B /* ValueObservation+Map.swift */,
+				94DD5B0C2254A18200FA967B /* ValueObservation+Row.swift */,
+				94DD5B0D2254A18200FA967B /* ValueObservation+FetchableRecord.swift */,
+				94DD5B0E2254A18200FA967B /* ValueObservation+DatabaseValueConvertible.swift */,
+				94DD5B0F2254A18200FA967B /* ValueObservation+CompactMap.swift */,
+				94DD5B102254A18200FA967B /* ValueReducer.swift */,
+				94DD5B112254A18200FA967B /* ValueObservation+Count.swift */,
+			);
+			path = ValueObservation;
+			sourceTree = "<group>";
+		};
+		94DD5B122254A18200FA967B /* Migration */ = {
+			isa = PBXGroup;
+			children = (
+				94DD5B132254A18200FA967B /* DatabaseMigrator.swift */,
+				94DD5B142254A18200FA967B /* Migration.swift */,
+			);
+			path = Migration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -692,126 +703,127 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9418257A21C148A30078BDA5 /* VirtualTableModule.swift in Sources */,
-				9418253721C148A30078BDA5 /* DatabaseCollation.swift in Sources */,
-				9418252E21C148A30078BDA5 /* Database.swift in Sources */,
-				9418251521C148A30078BDA5 /* DatabaseValue.swift in Sources */,
-				9418252C21C148A30078BDA5 /* NSNumber.swift in Sources */,
-				9418254421C148A30078BDA5 /* ValueReducer.swift in Sources */,
-				9418257B21C148A30078BDA5 /* SQLGenerationContext.swift in Sources */,
-				9418254F21C148A30078BDA5 /* FTS5.swift in Sources */,
-				9418252321C148A30078BDA5 /* Date.swift in Sources */,
-				9418252621C148A30078BDA5 /* DatabaseValueConvertible+ReferenceConvertible.swift in Sources */,
-				9418255E21C148A30078BDA5 /* Fixits-3.0.swift in Sources */,
-				9418256121C148A30078BDA5 /* HasOneAssociation.swift in Sources */,
-				9418257721C148A30078BDA5 /* SQLFunctions.swift in Sources */,
-				9418257121C148A30078BDA5 /* QueryOrdering.swift in Sources */,
-				9418251121C148A30078BDA5 /* FetchRequest.swift in Sources */,
-				9418255D21C148A30078BDA5 /* Fixits-Swift2.swift in Sources */,
-				9418255121C148A30078BDA5 /* FTS3.swift in Sources */,
-				9418250621C148A30078BDA5 /* PersistableRecord+Encodable.swift in Sources */,
-				9418257221C148A30078BDA5 /* SQLExpression+QueryInterface.swift in Sources */,
-				9418255F21C148A30078BDA5 /* TableDefinition.swift in Sources */,
-				9418253321C148A30078BDA5 /* DatabaseWriter.swift in Sources */,
-				9418251C21C148A30078BDA5 /* Database+Schema.swift in Sources */,
-				9418255921C148A30078BDA5 /* Fixits-0.109.0.swift in Sources */,
-				9418251B21C148A30078BDA5 /* DatabaseError.swift in Sources */,
-				9418255C21C148A30078BDA5 /* Fixits-1.2.swift in Sources */,
-				9418251A21C148A30078BDA5 /* SchedulingWatchdog.swift in Sources */,
-				9418251D21C148A30078BDA5 /* StandardLibrary.swift in Sources */,
-				9418253821C148A30078BDA5 /* SerializedDatabase.swift in Sources */,
-				9418252D21C148A30078BDA5 /* TransactionObserver.swift in Sources */,
-				9418250D21C148A30078BDA5 /* FetchableRecord+TableRecord.swift in Sources */,
-				9418253121C148A30078BDA5 /* Cursor.swift in Sources */,
-				9418253E21C148A30078BDA5 /* ValueObservation+MapReducer.swift in Sources */,
-				9418253521C148A30078BDA5 /* Statement.swift in Sources */,
-				9418256421C148A30078BDA5 /* HasManyAssociation.swift in Sources */,
-				9418257021C148A30078BDA5 /* QueryInterfaceQuery.swift in Sources */,
-				9418254721C148A30078BDA5 /* Migration.swift in Sources */,
-				9418251921C148A30078BDA5 /* DatabasePool.swift in Sources */,
-				9418250821C148A30078BDA5 /* FetchableRecord.swift in Sources */,
-				9418252B21C148A30078BDA5 /* SQLiteDateParser.swift in Sources */,
-				9418257D21C148A30078BDA5 /* SQLSelectable+QueryInterface.swift in Sources */,
-				9418254921C148A30078BDA5 /* FTS5CustomTokenizer.swift in Sources */,
-				9418255621C148A30078BDA5 /* OrderedDictionary.swift in Sources */,
-				9418251421C148A30078BDA5 /* DatabaseReader.swift in Sources */,
-				9418253421C148A30078BDA5 /* DatabaseFunction.swift in Sources */,
-				9418255721C148A30078BDA5 /* Inflections.swift in Sources */,
-				9418257421C148A30078BDA5 /* Column.swift in Sources */,
-				9418251821C148A30078BDA5 /* StatementColumnConvertible.swift in Sources */,
-				9418256721C148A30078BDA5 /* AssociationRequest.swift in Sources */,
-				9418251F21C148A30078BDA5 /* DatabaseValueConvertible+Encodable.swift in Sources */,
-				9418255321C148A30078BDA5 /* ReadWriteBox.swift in Sources */,
-				9418251021C148A30078BDA5 /* StatementAuthorizer.swift in Sources */,
-				9418255221C148A30078BDA5 /* Result.swift in Sources */,
-				9418253C21C148A30078BDA5 /* ValueObservation+DistinctUntilChanged.swift in Sources */,
-				9418256321C148A30078BDA5 /* AssociationAggregate.swift in Sources */,
-				9418256D21C148A30078BDA5 /* SQLExpression.swift in Sources */,
-				9418251621C148A30078BDA5 /* DatabaseValueConversion.swift in Sources */,
-				9418253A21C148A30078BDA5 /* ValueObservation.swift in Sources */,
-				9418254021C148A30078BDA5 /* ValueObservation+Row.swift in Sources */,
-				9418252821C148A30078BDA5 /* DatabaseDateComponents.swift in Sources */,
-				9418256921C148A30078BDA5 /* QueryInterfaceRequest.swift in Sources */,
-				9418254821C148A30078BDA5 /* FTS5Pattern.swift in Sources */,
-				9418257C21C148A30078BDA5 /* FTS3+QueryInterfaceRequest.swift in Sources */,
-				9418256821C148A30078BDA5 /* Association.swift in Sources */,
-				9418253F21C148A30078BDA5 /* ValueObservation+Map.swift in Sources */,
-				9418256E21C148A30078BDA5 /* SQLOrdering.swift in Sources */,
-				9418250B21C148A30078BDA5 /* Record.swift in Sources */,
-				9418256F21C148A30078BDA5 /* SQLExpressible.swift in Sources */,
-				9418254621C148A30078BDA5 /* DatabaseMigrator.swift in Sources */,
-				9418254E21C148A30078BDA5 /* FTS5TokenizerDescriptor.swift in Sources */,
-				9418253B21C148A30078BDA5 /* ValueObservation+Combine.swift in Sources */,
-				9418252121C148A30078BDA5 /* CGFloat.swift in Sources */,
-				9418255421C148A30078BDA5 /* Pool.swift in Sources */,
-				9418250F21C148A30078BDA5 /* RowAdapter.swift in Sources */,
-				9418251721C148A30078BDA5 /* DatabaseSnapshot.swift in Sources */,
-				9418256B21C148A30078BDA5 /* FTS5+QueryInterface.swift in Sources */,
-				9418255B21C148A30078BDA5 /* Fixits-0-90-1.swift in Sources */,
-				9418253D21C148A30078BDA5 /* ValueObserver.swift in Sources */,
-				9418252921C148A30078BDA5 /* NSData.swift in Sources */,
-				9418256521C148A30078BDA5 /* ForeignKey.swift in Sources */,
-				9418253221C148A30078BDA5 /* Row.swift in Sources */,
-				9418250A21C148A30078BDA5 /* TableRecord.swift in Sources */,
-				9418255A21C148A30078BDA5 /* Fixits-0.101.1.swift in Sources */,
-				9418255821C148A30078BDA5 /* Fixits-0-84-0.swift in Sources */,
-				9418250921C148A30078BDA5 /* FetchedRecordsController.swift in Sources */,
-				9418252221C148A30078BDA5 /* NSString.swift in Sources */,
-				9418255521C148A30078BDA5 /* Utils.swift in Sources */,
-				9418257921C148A30078BDA5 /* QueryInterfaceRequest+Association.swift in Sources */,
-				9418252A21C148A30078BDA5 /* URL.swift in Sources */,
-				9418257821C148A30078BDA5 /* SQLCollatedExpression.swift in Sources */,
-				9418253621C148A30078BDA5 /* DatabaseValueConvertible.swift in Sources */,
-				9418250721C148A30078BDA5 /* FetchableRecord+Decodable.swift in Sources */,
-				9418256021C148A30078BDA5 /* BelongsToAssociation.swift in Sources */,
-				9418252421C148A30078BDA5 /* NSNull.swift in Sources */,
-				9418254C21C148A30078BDA5 /* FTS5Tokenizer.swift in Sources */,
-				9418255021C148A30078BDA5 /* FTS5WrapperTokenizer.swift in Sources */,
-				9418251221C148A30078BDA5 /* Database+Statements.swift in Sources */,
-				9418256C21C148A30078BDA5 /* SQLCollection.swift in Sources */,
-				9418254321C148A30078BDA5 /* ValueObservation+CompactMap.swift in Sources */,
-				9418254221C148A30078BDA5 /* ValueObservation+DatabaseValueConvertible.swift in Sources */,
-				9418254521C148A30078BDA5 /* ValueObservation+Count.swift in Sources */,
-				9418252021C148A30078BDA5 /* DatabaseValueConvertible+Decodable.swift in Sources */,
-				9418254121C148A30078BDA5 /* ValueObservation+FetchableRecord.swift in Sources */,
-				9418250E21C148A30078BDA5 /* DatabaseQueue.swift in Sources */,
-				9418253021C148A30078BDA5 /* DatabaseRegionObservation.swift in Sources */,
-				9418254D21C148A30078BDA5 /* FTS4.swift in Sources */,
-				9418252F21C148A30078BDA5 /* DatabaseRegion.swift in Sources */,
-				9418253921C148A30078BDA5 /* Configuration.swift in Sources */,
-				9418257521C148A30078BDA5 /* SQLSpecificExpressible+QueryInterface.swift in Sources */,
-				9418251321C148A30078BDA5 /* DatabaseSchemaCache.swift in Sources */,
-				9418254B21C148A30078BDA5 /* FTS3Pattern.swift in Sources */,
-				9418256A21C148A30078BDA5 /* RequestProtocols.swift in Sources */,
-				9418257621C148A30078BDA5 /* SQLOperators.swift in Sources */,
-				9418252721C148A30078BDA5 /* UUID.swift in Sources */,
-				9418250C21C148A30078BDA5 /* PersistableRecord.swift in Sources */,
-				9418254A21C148A30078BDA5 /* FTS3TokenizerDescriptor.swift in Sources */,
-				9418251E21C148A30078BDA5 /* DatabaseValueConvertible+RawRepresentable.swift in Sources */,
-				9418256621C148A30078BDA5 /* ForeignKeyRequest.swift in Sources */,
-				9418256221C148A30078BDA5 /* AssociationQuery.swift in Sources */,
-				9418257321C148A30078BDA5 /* SQLSelectable.swift in Sources */,
-				9418252521C148A30078BDA5 /* Data.swift in Sources */,
+				94DD5B152254A18200FA967B /* TableDefinition.swift in Sources */,
+				94DD5B882254A18200FA967B /* ValueObservation+DatabaseValueConvertible.swift in Sources */,
+				94DD5B232254A18200FA967B /* DatabasePromise.swift in Sources */,
+				94DD5B812254A18200FA967B /* ValueObservation+Combine.swift in Sources */,
+				94DD5B582254A18200FA967B /* TransactionObserver.swift in Sources */,
+				94DD5B542254A18200FA967B /* NSData.swift in Sources */,
+				94DD5B482254A18200FA967B /* StandardLibrary.swift in Sources */,
+				94DD5B5C2254A18200FA967B /* Cursor.swift in Sources */,
+				94DD5B6C2254A18200FA967B /* Record.swift in Sources */,
+				94DD5B512254A18200FA967B /* DatabaseValueConvertible+ReferenceConvertible.swift in Sources */,
+				94DD5B552254A18200FA967B /* URL.swift in Sources */,
+				94DD5B872254A18200FA967B /* ValueObservation+FetchableRecord.swift in Sources */,
+				94DD5B7E2254A18200FA967B /* FTS3.swift in Sources */,
+				94DD5B262254A18200FA967B /* SQLExpression.swift in Sources */,
+				94DD5B4F2254A18200FA967B /* NSNull.swift in Sources */,
+				94DD5B182254A18200FA967B /* AssociationAggregate.swift in Sources */,
+				94DD5B4E2254A18200FA967B /* Date.swift in Sources */,
+				94DD5B702254A18200FA967B /* ReadWriteBox.swift in Sources */,
+				94DD5B2C2254A18200FA967B /* SQLSpecificExpressible+QueryInterface.swift in Sources */,
+				94DD5B1F2254A18200FA967B /* QueryInterfaceRequest.swift in Sources */,
+				94DD5B3B2254A18200FA967B /* FetchRequest.swift in Sources */,
+				94DD5B2B2254A18200FA967B /* Column.swift in Sources */,
+				94DD5B282254A18200FA967B /* SQLExpressible.swift in Sources */,
+				94DD5B3D2254A18200FA967B /* DatabaseSchemaCache.swift in Sources */,
+				94DD5B1A2254A18200FA967B /* ForeignKey.swift in Sources */,
+				94DD5B712254A18200FA967B /* Pool.swift in Sources */,
+				94DD5B472254A18200FA967B /* Database+Schema.swift in Sources */,
+				94DD5B7C2254A18200FA967B /* FTS5.swift in Sources */,
+				94DD5B822254A18200FA967B /* ValueObservation+DistinctUntilChanged.swift in Sources */,
+				94DD5B6B2254A18200FA967B /* TableRecord.swift in Sources */,
+				94DD5B162254A18200FA967B /* BelongsToAssociation.swift in Sources */,
+				94DD5B612254A18200FA967B /* Statement.swift in Sources */,
+				94DD5B692254A18200FA967B /* FetchableRecord.swift in Sources */,
+				94DD5B392254A18200FA967B /* RowAdapter.swift in Sources */,
+				94DD5B522254A18200FA967B /* UUID.swift in Sources */,
+				94DD5B8C2254A18200FA967B /* DatabaseMigrator.swift in Sources */,
+				94DD5B7B2254A18200FA967B /* FTS5TokenizerDescriptor.swift in Sources */,
+				94DD5B432254A18200FA967B /* StatementColumnConvertible.swift in Sources */,
+				94DD5B632254A18200FA967B /* DatabaseCollation.swift in Sources */,
+				94DD5B562254A18200FA967B /* SQLiteDateParser.swift in Sources */,
+				94DD5B732254A18200FA967B /* OrderedDictionary.swift in Sources */,
+				94DD5B4C2254A18200FA967B /* CGFloat.swift in Sources */,
+				94DD5B332254A18200FA967B /* SQLRelation.swift in Sources */,
+				94DD5B6A2254A18200FA967B /* FetchedRecordsController.swift in Sources */,
+				94DD5B622254A18200FA967B /* DatabaseValueConvertible.swift in Sources */,
+				94DD5B3A2254A18200FA967B /* StatementAuthorizer.swift in Sources */,
+				94DD5B292254A18200FA967B /* SQLExpression+QueryInterface.swift in Sources */,
+				94DD5B452254A18200FA967B /* SchedulingWatchdog.swift in Sources */,
+				94DD5B192254A18200FA967B /* HasManyAssociation.swift in Sources */,
+				94DD5B5E2254A18200FA967B /* DatabaseWriter.swift in Sources */,
+				94DD5B742254A18200FA967B /* Inflections.swift in Sources */,
+				94DD5B322254A18200FA967B /* VirtualTableModule.swift in Sources */,
+				94DD5B7A2254A18200FA967B /* FTS4.swift in Sources */,
+				94DD5B642254A18200FA967B /* SerializedDatabase.swift in Sources */,
+				94DD5B1E2254A18200FA967B /* HasOneThroughAssociation.swift in Sources */,
+				94DD5B8B2254A18200FA967B /* ValueObservation+Count.swift in Sources */,
+				94DD5B4B2254A18200FA967B /* DatabaseValueConvertible+Decodable.swift in Sources */,
+				94DD5B352254A18200FA967B /* FTS3+QueryInterfaceRequest.swift in Sources */,
+				94DD5B412254A18200FA967B /* DatabaseValueConversion.swift in Sources */,
+				94DD5B5F2254A18200FA967B /* SQLInterpolation.swift in Sources */,
+				94DD5B402254A18200FA967B /* SQLLiteral.swift in Sources */,
+				94DD5B4A2254A18200FA967B /* DatabaseValueConvertible+Encodable.swift in Sources */,
+				94DD5B6D2254A18200FA967B /* PersistableRecord.swift in Sources */,
+				94DD5B502254A18200FA967B /* Data.swift in Sources */,
+				94DD5B8D2254A18200FA967B /* Migration.swift in Sources */,
+				94DD5B682254A18200FA967B /* FetchableRecord+Decodable.swift in Sources */,
+				94DD5B242254A18200FA967B /* FTS5+QueryInterface.swift in Sources */,
+				94DD5B302254A18200FA967B /* SQLCollatedExpression.swift in Sources */,
+				94DD5B6F2254A18200FA967B /* Result.swift in Sources */,
+				94DD5B222254A18200FA967B /* RequestProtocols.swift in Sources */,
+				94DD5B652254A18200FA967B /* Configuration.swift in Sources */,
+				94DD5B752254A18200FA967B /* FTS5Pattern.swift in Sources */,
+				94DD5B372254A18200FA967B /* DatabaseQueue.swift in Sources */,
+				94DD5B252254A18200FA967B /* SQLCollection.swift in Sources */,
+				94DD5B892254A18200FA967B /* ValueObservation+CompactMap.swift in Sources */,
+				94DD5B172254A18200FA967B /* HasOneAssociation.swift in Sources */,
+				94DD5B212254A18200FA967B /* SQLSelectQuery.swift in Sources */,
+				94DD5B592254A18200FA967B /* Database.swift in Sources */,
+				94DD5B842254A18200FA967B /* ValueObservation+MapReducer.swift in Sources */,
+				94DD5B5B2254A18200FA967B /* DatabaseRegionObservation.swift in Sources */,
+				94DD5B1D2254A18200FA967B /* Association.swift in Sources */,
+				94DD5B382254A18200FA967B /* SQLRequest.swift in Sources */,
+				94DD5B362254A18200FA967B /* SQLSelectable+QueryInterface.swift in Sources */,
+				94DD5B342254A18200FA967B /* SQLGenerationContext.swift in Sources */,
+				94DD5B5D2254A18200FA967B /* Row.swift in Sources */,
+				94DD5B662254A18200FA967B /* EncodableRecord+Encodable.swift in Sources */,
+				94DD5B3E2254A18200FA967B /* DatabaseReader.swift in Sources */,
+				94DD5B782254A18200FA967B /* FTS3Pattern.swift in Sources */,
+				94DD5B602254A18200FA967B /* DatabaseFunction.swift in Sources */,
+				94DD5B672254A18200FA967B /* EncodableRecord.swift in Sources */,
+				94DD5B792254A18200FA967B /* FTS5Tokenizer.swift in Sources */,
+				94DD5B1C2254A18200FA967B /* ForeignKeyRequest.swift in Sources */,
+				94DD5B202254A18200FA967B /* SQLInterpolation+QueryInterface.swift in Sources */,
+				94DD5B272254A18200FA967B /* SQLOrdering.swift in Sources */,
+				94DD5B832254A18200FA967B /* ValueObserver.swift in Sources */,
+				94DD5B6E2254A18200FA967B /* FetchableRecord+TableRecord.swift in Sources */,
+				94DD5B2A2254A18200FA967B /* SQLSelectable.swift in Sources */,
+				94DD5B572254A18200FA967B /* NSNumber.swift in Sources */,
+				94DD5B312254A18200FA967B /* QueryInterfaceRequest+Association.swift in Sources */,
+				94DD5B2D2254A18200FA967B /* SQLOperators.swift in Sources */,
+				94DD5B772254A18200FA967B /* FTS3TokenizerDescriptor.swift in Sources */,
+				94DD5B532254A18200FA967B /* DatabaseDateComponents.swift in Sources */,
+				94DD5B422254A18200FA967B /* DatabaseSnapshot.swift in Sources */,
+				94DD5B862254A18200FA967B /* ValueObservation+Row.swift in Sources */,
+				94DD5B3C2254A18200FA967B /* Database+Statements.swift in Sources */,
+				94DD5B2E2254A18200FA967B /* SQLFunctions.swift in Sources */,
+				94DD5B442254A18200FA967B /* DatabasePool.swift in Sources */,
+				94DD5B7F2254A18200FA967B /* GRDB-4.0.swift in Sources */,
+				94DD5B1B2254A18200FA967B /* HasManyThroughAssociation.swift in Sources */,
+				94DD5B802254A18200FA967B /* ValueObservation.swift in Sources */,
+				94DD5B5A2254A18200FA967B /* DatabaseRegion.swift in Sources */,
+				94DD5B3F2254A18200FA967B /* DatabaseValue.swift in Sources */,
+				94DD5B762254A18200FA967B /* FTS5CustomTokenizer.swift in Sources */,
+				94DD5B722254A18200FA967B /* Utils.swift in Sources */,
+				94DD5B492254A18200FA967B /* DatabaseValueConvertible+RawRepresentable.swift in Sources */,
+				94DD5B8A2254A18200FA967B /* ValueReducer.swift in Sources */,
+				94DD5B7D2254A18200FA967B /* FTS5WrapperTokenizer.swift in Sources */,
+				94DD5B2F2254A18200FA967B /* SQLSelectQueryGenerator.swift in Sources */,
+				94DD5B852254A18200FA967B /* ValueObservation+Map.swift in Sources */,
+				94DD5B4D2254A18200FA967B /* NSString.swift in Sources */,
+				94DD5B462254A18200FA967B /* DatabaseError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -994,6 +1006,7 @@
 		94B4EF9B21C13B9C0007A32B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -1006,7 +1019,7 @@
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = GRDB/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1017,7 +1030,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1025,6 +1038,7 @@
 		94B4EF9C21C13B9C0007A32B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -1037,7 +1051,7 @@
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = GRDB/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1047,7 +1061,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tian.GRDB;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
