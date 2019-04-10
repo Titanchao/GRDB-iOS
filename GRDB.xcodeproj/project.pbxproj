@@ -332,11 +332,8 @@
 		94B4EF9421C13B9C0007A32B /* GRDB */ = {
 			isa = PBXGroup;
 			children = (
-				94B4EF9521C13B9C0007A32B /* GRDB.h */,
+				94E3F9F6225DD22C0033CAD1 /* Support */,
 				94DD5A8D2254A18200FA967B /* GRDB */,
-				94B4EF9621C13B9C0007A32B /* Info.plist */,
-				9418258321C1498F0078BDA5 /* grdb_config.h */,
-				9418258D21C14BA40078BDA5 /* module.modulemap */,
 			);
 			path = GRDB;
 			sourceTree = "<group>";
@@ -579,6 +576,17 @@
 				94DD5B142254A18200FA967B /* Migration.swift */,
 			);
 			path = Migration;
+			sourceTree = "<group>";
+		};
+		94E3F9F6225DD22C0033CAD1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				94B4EF9521C13B9C0007A32B /* GRDB.h */,
+				94B4EF9621C13B9C0007A32B /* Info.plist */,
+				9418258321C1498F0078BDA5 /* grdb_config.h */,
+				9418258D21C14BA40078BDA5 /* module.modulemap */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1017,7 +1025,7 @@
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = GRDB/Info.plist;
+				INFOPLIST_FILE = GRDB/Support/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1025,7 +1033,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "$(SRCROOT)/GRDB/module.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/GRDB/Support/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tian.GRDB;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1049,7 +1057,7 @@
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = GRDB/Info.plist;
+				INFOPLIST_FILE = GRDB/Support/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1057,7 +1065,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "$(SRCROOT)/GRDB/module.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/GRDB/Support/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tian.GRDB;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
